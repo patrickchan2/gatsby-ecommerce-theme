@@ -23,11 +23,25 @@
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
     },
     {
-        "name": "Classic T-Shirt",
+        "name": "Easter Bunny",
         "price": 75,
         "alt": "classic t-shirt 1",
         "image": "/products/shirt1.jpg",
-        "tags": ["shirt", "men"]
+        "tags": ["seasonal", "boy", "girl", "new"]
+    },
+    {
+        "name": "Forest Adventure",
+        "price": 75,
+        "alt": "classic t-shirt 1",
+        "image": "/products/shirt2.jpg",
+        "tags": ["seasonal", "boy", "girl", "new"]
+    },
+    {
+        "name": "Luna New Year Happyiness",
+        "price": 75,
+        "alt": "classic t-shirt 1",
+        "image": "/products/shirt3.jpg",
+        "tags": ["seasonal", "boy", "girl", "new"]
     },
     {
         "name": "Classic T-Shirt",

@@ -18,7 +18,7 @@ import { Link, navigate } from 'gatsby';
 import { toOptimizedImage } from '../helpers/general';
 
 const IndexPage = () => {
-  const newArrivals = generateMockProductData(3, 'shirt');
+  const newArrivals = generateMockProductData(3, 'new');
   const blogData = generateMockBlogData(3);
 
   const goToShop = () => {
@@ -38,7 +38,7 @@ const IndexPage = () => {
       />
 
       {/* Message Container */}
-      <div className={styles.messageContainer}>
+      {/*<div className={styles.messageContainer}>
         <p>
           This is a demonstration of the Sydney theme for verse by{' '}
           <span className={styles.gold}>matter design.</span>
@@ -47,12 +47,12 @@ const IndexPage = () => {
           wear by <span className={styles.gold}>sunspel</span> and{' '}
           <span className={styles.gold}>scotch&soda</span>
         </p>
-      </div>
+      </div>*/}
 
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Baby Themes'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -60,7 +60,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'New Themes'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -79,9 +79,9 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
-            textLink={'shop now'}
+            title={'Special Theme'}
+            description={`This theme is designed to capture the essence of childhood joy and innocence. With vibrant colors, playful patterns, and whimsical elements, it creates a fun and engaging environment for kids to explore and enjoy.`}
+            textLink={'book now'}
             link={'/shop'}
           />
         </Container>
@@ -89,26 +89,26 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
+        <Hero image={toOptimizedImage('/banner2.png')} title={`-10% off \n Early Bird book in Easter Holiday`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>Girl</Link>
+          <Link to={'/shop'}>Boy</Link>
         </div>
       </div>
 
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about Kidsubaby'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“We believe in creating magical moments for children, where every detail is thoughtfully designed to bring joy and comfort.”'
         }
       />
 
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'Review'} subtitle={'Feedback on facebook and instagram'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div>
