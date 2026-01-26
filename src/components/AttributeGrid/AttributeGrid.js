@@ -9,13 +9,13 @@ const AttributeGrid = (props) => {
     <div className={styles.root}>
       <Attribute
         icon={'delivery'}
-        title={'free delivery worldwide'}
-        subtitle={'Click to learn more'}
+        title={'30 days commitment'}
+        subtitle={'All photos are ready within 30 days'}
       />
       <Attribute
         icon={'cycle'}
-        title={'returns'}
-        subtitle={'Return goods in 30 days'}
+        title={'Quality Guarantee'}
+        subtitle={'Refund if not satisfied'}
       />
       <Attribute
         icon={'creditcard'}
