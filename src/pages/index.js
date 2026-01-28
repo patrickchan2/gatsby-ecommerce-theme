@@ -30,7 +30,7 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
+        image={'/banner1.jpg'}
         title={'Capture the Happiness of bloosoming moments'}
         subtitle={'Discover Spring New Themes 2026'}
         ctaText={'book now'}
