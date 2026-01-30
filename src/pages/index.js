@@ -31,7 +31,7 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.jpg'}
-        title={'Capture the Happiness of bloosoming moments'}
+        title={'Capture the bloosoming moments'}
         subtitle={'Discover Spring New Themes 2026'}
         ctaText={'book now'}
         ctaAction={goToShop}
@@ -89,7 +89,7 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.png')} title={`-10% off \n Early Bird book in Easter Holiday`} />
+        <Hero image={toOptimizedImage('/banner2.jpg')} title={`-10% off \n Early Bird book in Easter Holiday`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>Girl</Link>
           <Link to={'/shop'}>Boy</Link>
