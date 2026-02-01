@@ -75,9 +75,9 @@ const IndexPage = () => {
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
-            image={'/highlight.png'}
+            image={'/highlight.jpg'}
             altImage={'highlight image'}
-            miniImage={'/highlightmin.png'}
+            miniImage={'/highlightmin.jpg'}
             miniImageAlt={'mini highlight image'}
             title={'Special Theme'}
             description={`This theme is designed to capture the essence of childhood joy and innocence. With vibrant colors, playful patterns, and whimsical elements, it creates a fun and engaging environment for kids to explore and enjoy.`}
