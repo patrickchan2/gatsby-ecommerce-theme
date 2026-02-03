@@ -53,7 +53,7 @@ const ProductPage = (props) => {
               <span className={styles.vendor}> by {sampleProduct.vendor}</span>
 
               <div className={styles.priceContainer}>
-                <CurrencyFormatter appendZero amount={sampleProduct.price} />
+                <CurrencyFormatter appendZero amount={sampleProduct.price} useDollar />
               </div>
 
               <div>
