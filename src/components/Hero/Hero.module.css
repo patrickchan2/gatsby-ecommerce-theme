@@ -64,6 +64,7 @@
 @media (max-width: 800px) {
     .root {
         min-height: 50vh;
+        background-position: center center;
     }
 
     .title {
@@ -80,5 +81,9 @@
 @media (max-width: 500px) {
     .content {
         padding: 0px 32px;
+    }
+
+    .root {
+        background-position: center center;
     }
 }
