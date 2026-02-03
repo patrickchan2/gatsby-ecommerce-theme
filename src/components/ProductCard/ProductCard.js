@@ -17,6 +17,7 @@ const ProductCard = (props) => {
     meta,
     showQuickView,
     height = 580,
+    showPrice = true,
   } = props;
 
   const handleRouteToProduct = () => {
@@ -65,18 +66,20 @@ const ProductCard = (props) => {
       </div>
       <div className={styles.detailsContainer}>
         <span className={styles.productName}>{name}</span>
-        <div className={styles.prices}>
-          <span
-            className={`${originalPrice !== undefined ? styles.salePrice : ''}`}
-          >
-            <CurrencyFormatter amount={price} useDollar />
-          </span>
-          {originalPrice && (
-            <span className={styles.originalPrice}>
-              <CurrencyFormatter amount={originalPrice} useDollar />
+        {showPrice && (
+          <div className={styles.prices}>
+            <span
+              className={`${originalPrice !== undefined ? styles.salePrice : ''}`}
+            >
+              <CurrencyFormatter amount={price} useDollar />
             </span>
-          )}
-        </div>
+            {originalPrice && (
+              <span className={styles.originalPrice}>
+                <CurrencyFormatter amount={originalPrice} useDollar />
+              </span>
+            )}
+          </div>
+        )}
         <span className={styles.meta}>{meta}</span>
       </div>
     </div>

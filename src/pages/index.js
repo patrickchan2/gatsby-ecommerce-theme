@@ -67,6 +67,7 @@ const IndexPage = () => {
             height={480}
             columns={3}
             data={newArrivals}
+            showPrice={false}
           />
         </Container>
       </div>

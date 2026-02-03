@@ -8,7 +8,7 @@ import Slider from '../Slider';
 
 const ProductCardGrid = (props) => {
   const [showQuickView, setShowQuickView] = useState(false);
-  const { height, columns = 3, data, spacing, showSlider = false } = props;
+  const { height, columns = 3, data, spacing, showSlider = false, showPrice = true } = props;
   const columnCount = {
     gridTemplateColumns: `repeat(${columns}, 1fr)`,
   };
@@ -27,6 +27,7 @@ const ProductCardGrid = (props) => {
           originalPrice={product.originalPrice}
           link={product.link}
           showQuickView={() => setShowQuickView(true)}
+          showPrice={showPrice}
         />
       );
     });
