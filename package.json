@@ -15,7 +15,7 @@
     "clean": "gatsby clean",
     "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
     "plop": "plop",
-    "deploy:pages": "sh -c 'if [ -z \"$CF_PAGES_PROJECT_NAME\" ]; then echo "Missing CF_PAGES_PROJECT_NAME environment variable" >&2; exit 1; fi; npx wrangler pages deploy ./public --project-name \"$CF_PAGES_PROJECT_NAME\"'"
+    "deploy:pages": "npx wrangler pages deploy ./public --project-name \"kidsubaby\""
   },
   "dependencies": {
     "ajv": "^8.17.1",
