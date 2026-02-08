@@ -14,7 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
-    "plop": "plop"
+    "plop": "plop",
+    "deploy:pages": "npx wrangler pages deploy ./public"
   },
   "dependencies": {
     "ajv": "^8.17.1",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "netlify-cli": "^23.13.5",
     "plop": "^3.0.5",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "wrangler": "^4.63.0"
   }
 }
