@@ -15,6 +15,21 @@ const ProductCardGrid = (props) => {
 
   const renderCards = () => {
     return data.map((product, index) => {
+      const slugFromName = product.name
+        ? product.name
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/(^-|-$)/g, '')
+        : null;
+
+      const linkUrl = product.link
+        ? product.link
+        : product.productCode
+        ? `/product/${product.productCode}`
+        : slugFromName
+        ? `/product/${slugFromName}`
+        : '/product/sample';
+
       return (
         <ProductCard
           key={index}
@@ -25,7 +40,7 @@ const ProductCardGrid = (props) => {
           image={product.image}
           meta={product.meta}
           originalPrice={product.originalPrice}
-          link={product.link}
+          link={linkUrl}
           showQuickView={() => setShowQuickView(true)}
           showPrice={showPrice}
         />

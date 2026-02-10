@@ -18,10 +18,38 @@ const ProductCard = (props) => {
     showQuickView,
     height = 580,
     showPrice = true,
+    link,
   } = props;
 
   const handleRouteToProduct = () => {
-    navigate('/product/sample');
+    if (link) {
+      const isFile = /\.(jpg|jpeg|png|gif|webp|svg)$/i.test(link);
+
+      if (isFile) {
+        window.location.href = link;
+        return;
+      }
+
+      // For any absolute/external links open via location, otherwise use Gatsby navigation
+      const isExternal = /^(?:[a-z]+:)?\/\//i.test(link);
+
+      if (isExternal) {
+        window.location.href = link;
+        return;
+      }
+
+      navigate(link);
+      return;
+    }
+
+    const slug = name
+      ? name
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/(^-|-$)/g, '')
+      : 'sample';
+
+    navigate(`/product/${slug}`);
   };
 
   const handleQuickView = (e) => {

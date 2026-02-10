@@ -16,7 +16,9 @@ import Config from '../config.json';
 
 const ShopPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);
-  const data = generateMockProductData(6, 'boy');
+  const [loadedCount, setLoadedCount] = useState(6);
+  const data = generateMockProductData(loadedCount, 'boy');
+  const totalItems = 476;
 
   useEffect(() => {
     window.addEventListener('keydown', escapeHandler);
@@ -28,6 +30,10 @@ const ShopPage = (props) => {
     if (e.keyCode === 27) setShowFilter(false);
   };
 
+  const handleLoadMore = () => {
+    setLoadedCount(loadedCount + 6);
+  };
+
   return (
     <Layout>
       <div className={styles.root}>
@@ -37,7 +43,6 @@ const ShopPage = (props) => {
               crumbs={[
                 { link: '/', label: 'Home' },
                 { link: '/', label: 'Boy' },
-                { label: 'Sweaters' },
               ]}
             />
           </div>
@@ -83,8 +88,8 @@ const ShopPage = (props) => {
             <ProductCardGrid data={data}></ProductCardGrid>
           </div>
           <div className={styles.loadMoreContainer}>
-            <span>6 of 456</span>
-            <Button fullWidth level={'secondary'}>
+            <span>{loadedCount} of {totalItems}</span>
+            <Button fullWidth level={'secondary'} onClick={handleLoadMore}>
               LOAD MORE
             </Button>
           </div>

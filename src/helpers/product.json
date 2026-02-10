@@ -26,8 +26,9 @@
         "name": "Toys Party",
         "price": 75,
         "alt": "toy room party",
-        "image": "/products/toystory1.jpg",
-        "tags": ["seasonal", "boy", "girl", "new"]
+        "image": "/products/toystoryboy1.jpg",
+        "tags": ["seasonal", "boy", "girl", "new"],
+        "link": "/products/toystoryboy1.jpg"
     },
     {
         "name": "Forest Adventure",
@@ -41,21 +42,140 @@
         "price": 75,
         "alt": "game time",
         "image": "/products/mario1.jpg",
-        "tags": ["seasonal", "boy", "girl", "new"]
+        "tags": [ "girl", "new"]
     },
     {
-        "name": "Classic T-Shirt",
+        "name": "Night Hero",
         "price": 75,
-        "alt": "classic t-shirt 2",
-        "image": "/products/shirt2.jpg",
-        "tags": ["shirt", "men"]
+        "alt": "night hero",
+        "image": "/products/batman1.jpg",
+        "tags": [ "boy", "new"]
     },
     {
-        "name": "Classic T-Shirt",
+        "name": "Blue Sky Cake Smash",
         "price": 75,
-        "alt": "classic t-shirt 3",
-        "image": "/products/shirt3.jpg",
-        "tags": ["shirt", "men"]
+        "alt": "blue sky cake smash",
+        "image": "/products/blueskycakesmash1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Sailing Adventure",
+        "price": 75,
+        "alt": "sailing adventure",
+        "image": "/products/captain1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Carousel Fun",
+        "price": 75,
+        "alt": "carousel fun",
+        "image": "/products/carosel1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Caterpillar Dream",
+        "price": 75,
+        "alt": "caterpillar dream",
+        "image": "/products/caterpiller1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Western Cowboy",
+        "price": 75,
+        "alt": "western cowboy",
+        "image": "/products/cowboy1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Circus Fun",
+        "price": 75,
+        "alt": "circus fun",
+        "image": "/products/dumbo1.jpg",
+        "tags": [ "boy", "girl", "new"]
+    },
+    {
+        "name": "Easter Egg Hunt",
+        "price": 75,
+        "alt": "easter egg hunt",
+        "image": "/products/easterbunny1.jpg",
+        "tags": [ "boy", "girl", "new"]
+    },
+    {
+        "name": "Farmyard Fun",
+        "price": 75,
+        "alt": "farmyard fun",
+        "image": "/products/farmerboy1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Lemon Fun 1",
+        "price": 75,
+        "alt": "lemon fun 1",
+        "image": "/products/lemon1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Crowd Cake Smash",
+        "price": 75,
+        "alt": "crowd cake smash",
+        "image": "/products/kingcakesmash.jpg",
+        "tags": ["boy", "girl", "new"]
+    },
+    {
+        "name": "Lemon Fun 2",
+        "price": 75,
+        "alt": "lemon fun 2",
+        "image": "/products/lemon2.jpg",
+        "tags": [ "boy", "girl", "new"]
+    },
+    {
+        "name": "Game Time 2",
+        "price": 75,
+        "alt": "game time 2",
+        "image": "/products/marioboy1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Circus Show",
+        "price": 75,
+        "alt": "circus show",
+        "image": "/products/olddumbo1.jpg",
+        "tags": [ "boy", "girl", "new"]
+    },
+    {
+        "name": "Forest Fairtale",
+        "price": 75,
+        "alt": "forest fairtale",
+        "image": "/products/oldwinniepoon.jpg",
+        "tags": [ "boy", "girl", "new"]
+    },
+    {
+        "name": "Pizza Kitchen 1",
+        "price": 75,
+        "alt": "pizza kitchen",
+        "image": "/products/pizzaboy1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Rubber Duck Fun",
+        "price": 75,
+        "alt": "rubber duck fun",
+        "image": "/products/rubberduck1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Toys Party",
+        "price": 75,
+        "alt": "toys party",
+        "image": "/products/toystoryboy1.jpg",
+        "tags": [ "boy", "new"]
+    },
+    {
+        "name": "Doll Street Fun",
+        "price": 75,
+        "alt": "doll street fun",
+        "image": "/products/sesamestreet1.jpg",
+        "tags": ["boy", "new"]
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
