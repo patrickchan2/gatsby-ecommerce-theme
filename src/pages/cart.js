@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import React from 'react';
+import React, { useContext } from 'react';
 
 import Brand from '../components/Brand';
 import CartItem from '../components/CartItem';
@@ -7,18 +7,13 @@ import Container from '../components/Container';
 import Footer from '../components/Footer';
 import Icon from '../components/Icons/Icon';
 import OrderSummary from '../components/OrderSummary';
+import { CartContext } from '../context/CartContext';
 
 import * as styles from './cart.module.css';
 
 const CartPage = (props) => {
-  const sampleCartItem = {
-    image: '/products/pdp1.jpeg',
-    alt: '',
-    name: 'Lambswool Crew Neck Jumper',
-    price: 220,
-    color: 'Anthracite Melange',
-    size: 'XS',
-  };
+  const { items, removeFromCart, updateQuantity } = useContext(CartContext);
+  const subtotal = items.reduce((sum, item) => sum + (item.price ?? 0) * (item.quantity ?? 1), 0);
 
   return (
     <div>
@@ -42,10 +37,27 @@ const CartPage = (props) => {
             <h3>My Bag</h3>
             <div className={styles.cartContainer}>
               <div className={styles.cartItemsContainer}>
-                <CartItem {...sampleCartItem} />
-                <CartItem {...sampleCartItem} />
+                {items.length === 0 ? (
+                  <p className={styles.emptyMessage}>Your bag is empty.</p>
+                ) : (
+                  items.map((item) => (
+                    <CartItem
+                      key={item.id}
+                      id={item.id}
+                      image={item.image}
+                      alt={item.alt}
+                      name={item.name}
+                      price={item.price}
+                      color={item.color}
+                      size={item.size}
+                      quantity={item.quantity}
+                      onRemove={removeFromCart}
+                      onQuantityChange={(qty) => updateQuantity(item.id, qty)}
+                    />
+                  ))
+                )}
               </div>
-              <OrderSummary />
+              <OrderSummary subtotal={subtotal} />
             </div>
           </div>
         </Container>

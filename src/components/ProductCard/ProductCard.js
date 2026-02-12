@@ -16,6 +16,8 @@ const ProductCard = (props) => {
     originalPrice,
     meta,
     showQuickView,
+    onAddToCart,
+    product,
     height = 580,
     showPrice = true,
     link,
@@ -52,9 +54,13 @@ const ProductCard = (props) => {
     navigate(`/product/${slug}`);
   };
 
-  const handleQuickView = (e) => {
+  const handleBagClick = (e) => {
     e.stopPropagation();
-    showQuickView();
+    if (onAddToCart && product) {
+      onAddToCart(product);
+    } else if (showQuickView) {
+      showQuickView();
+    }
   };
 
   const handleFavorite = (e) => {
@@ -73,7 +79,7 @@ const ProductCard = (props) => {
         <div
           className={styles.bagContainer}
           role={'presentation'}
-          onClick={(e) => handleQuickView(e)}
+          onClick={(e) => handleBagClick(e)}
         >
           <Icon symbol={'bagPlus'} />
         </div>

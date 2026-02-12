@@ -1,249 +1,401 @@
 [
-    {
-        "productCode": "MJUM8066-GYDZ",
-        "name": "Lambswool Crew Neck Jumper",
-        "vendor": "Sunspel",
-        "price": 75,
-        "alt": "lambswool crew neck jumper",
+  {
+    "productCode": "MJUM8066-GYDZ",
+    "name": "Lambswool Crew Neck Jumper",
+    "vendor": "Sunspel",
+    "price": 75,
+    "alt": "lambswool crew neck jumper",
+    "image": "/products/pdp1.jpeg",
+    "colorOptions": [
+      {
+        "color": "#000000",
+        "title": "Anthracite Melange"
+      },
+      {
+        "color": "#4D34AE",
+        "title": "Pale Purple"
+      },
+      {
+        "color": "#488266",
+        "title": "Green Moss"
+      }
+    ],
+    "sizeOptions": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "wishlist": true,
+    "tags": [
+      "sample"
+    ],
+    "gallery": [
+      {
         "image": "/products/pdp1.jpeg",
-        "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
-        ],
-        "sizeOptions": ["xs", "s", "m", "l", "xl"],
-        "wishlist": true,
-        "tags": ["sample"],
-        "gallery": [
-            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
-            {"image": "/products/pdp2.jpeg", "alt": "pdp description 2"},
-            {"image": "/products/pdp3.jpeg", "alt": "pdp description 3"},
-            {"image": "/products/pdp4.jpeg", "alt": "pdp description 4"}
-        ],
-        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
-    },
-    {
-        "name": "Toys Party",
-        "price": 75,
-        "alt": "toy room party",
-        "image": "/products/toystoryboy1.jpg",
-        "tags": ["seasonal", "boy", "girl", "new"],
-        "link": "/products/toystoryboy1.jpg"
-    },
-    {
-        "name": "Forest Adventure",
-        "price": 75,
-        "alt": "forest adventure",
-        "image": "/products/forest1.jpg",
-        "tags": ["seasonal", "boy", "girl", "new"]
-    },
-    {
-        "name": "Game Time",
-        "price": 75,
-        "alt": "game time",
-        "image": "/products/mario1.jpg",
-        "tags": [ "girl", "new"]
-    },
-    {
-        "name": "Night Hero",
-        "price": 75,
-        "alt": "night hero",
-        "image": "/products/batman1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Blue Sky Cake Smash",
-        "price": 75,
-        "alt": "blue sky cake smash",
-        "image": "/products/blueskycakesmash1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Sailing Adventure",
-        "price": 75,
-        "alt": "sailing adventure",
-        "image": "/products/captain1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Carousel Fun",
-        "price": 75,
-        "alt": "carousel fun",
-        "image": "/products/carosel1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Caterpillar Dream",
-        "price": 75,
-        "alt": "caterpillar dream",
-        "image": "/products/caterpiller1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Western Cowboy",
-        "price": 75,
-        "alt": "western cowboy",
-        "image": "/products/cowboy1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Circus Fun",
-        "price": 75,
-        "alt": "circus fun",
-        "image": "/products/dumbo1.jpg",
-        "tags": [ "boy", "girl", "new"]
-    },
-    {
-        "name": "Easter Egg Hunt",
-        "price": 75,
-        "alt": "easter egg hunt",
-        "image": "/products/easterbunny1.jpg",
-        "tags": [ "boy", "girl", "new"]
-    },
-    {
-        "name": "Farmyard Fun",
-        "price": 75,
-        "alt": "farmyard fun",
-        "image": "/products/farmerboy1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Lemon Fun 1",
-        "price": 75,
-        "alt": "lemon fun 1",
-        "image": "/products/lemon1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Crowd Cake Smash",
-        "price": 75,
-        "alt": "crowd cake smash",
-        "image": "/products/kingcakesmash.jpg",
-        "tags": ["boy", "girl", "new"]
-    },
-    {
-        "name": "Lemon Fun 2",
-        "price": 75,
-        "alt": "lemon fun 2",
-        "image": "/products/lemon2.jpg",
-        "tags": [ "boy", "girl", "new"]
-    },
-    {
-        "name": "Game Time 2",
-        "price": 75,
-        "alt": "game time 2",
-        "image": "/products/marioboy1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Circus Show",
-        "price": 75,
-        "alt": "circus show",
-        "image": "/products/olddumbo1.jpg",
-        "tags": [ "boy", "girl", "new"]
-    },
-    {
-        "name": "Forest Fairtale",
-        "price": 75,
-        "alt": "forest fairtale",
-        "image": "/products/oldwinniepoon.jpg",
-        "tags": [ "boy", "girl", "new"]
-    },
-    {
-        "name": "Pizza Kitchen 1",
-        "price": 75,
-        "alt": "pizza kitchen",
-        "image": "/products/pizzaboy1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Rubber Duck Fun",
-        "price": 75,
-        "alt": "rubber duck fun",
-        "image": "/products/rubberduck1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Toys Party",
-        "price": 75,
-        "alt": "toys party",
-        "image": "/products/toystoryboy1.jpg",
-        "tags": [ "boy", "new"]
-    },
-    {
-        "name": "Doll Street Fun",
-        "price": 75,
-        "alt": "doll street fun",
-        "image": "/products/sesamestreet1.jpg",
-        "tags": ["boy", "new"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"]
-    },    
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman4.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman5.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman6.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"]
-    }
-  ]
+        "alt": "pdp description 1"
+      },
+      {
+        "image": "/products/pdp2.jpeg",
+        "alt": "pdp description 2"
+      },
+      {
+        "image": "/products/pdp3.jpeg",
+        "alt": "pdp description 3"
+      },
+      {
+        "image": "/products/pdp4.jpeg",
+        "alt": "pdp description 4"
+      }
+    ],
+    "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft.",
+    "link": "/products/pdp1.jpeg"
+  },
+  {
+    "name": "Toys Party",
+    "price": 75,
+    "alt": "toy room party",
+    "image": "/products/toystoryboy1.jpg",
+    "tags": [
+      "seasonal",
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/toystoryboy1.jpg"
+  },
+  {
+    "name": "Forest Adventure",
+    "price": 75,
+    "alt": "forest adventure",
+    "image": "/products/forest1.jpg",
+    "tags": [
+      "seasonal",
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/forest1.jpg"
+  },
+  {
+    "name": "Game Time",
+    "price": 75,
+    "alt": "game time",
+    "image": "/products/mario1.jpg",
+    "tags": [
+      "girl",
+      "new"
+    ],
+    "link": "/products/mario1.jpg"
+  },
+  {
+    "name": "Night Hero",
+    "price": 75,
+    "alt": "night hero",
+    "image": "/products/batman1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/batman1.jpg"
+  },
+  {
+    "name": "Blue Sky Cake Smash",
+    "price": 75,
+    "alt": "blue sky cake smash",
+    "image": "/products/blueskycakesmash1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/blueskycakesmash1.jpg"
+  },
+  {
+    "name": "Sailing Adventure",
+    "price": 75,
+    "alt": "sailing adventure",
+    "image": "/products/captain1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/captain1.jpg"
+  },
+  {
+    "name": "Carousel Fun",
+    "price": 75,
+    "alt": "carousel fun",
+    "image": "/products/carosel1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/carosel1.jpg"
+  },
+  {
+    "name": "Caterpillar Dream",
+    "price": 75,
+    "alt": "caterpillar dream",
+    "image": "/products/caterpiller1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/caterpiller1.jpg"
+  },
+  {
+    "name": "Western Cowboy",
+    "price": 75,
+    "alt": "western cowboy",
+    "image": "/products/cowboy1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/cowboy1.jpg"
+  },
+  {
+    "name": "Circus Fun",
+    "price": 75,
+    "alt": "circus fun",
+    "image": "/products/dumbo1.jpg",
+    "tags": [
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/dumbo1.jpg"
+  },
+  {
+    "name": "Easter Egg Hunt",
+    "price": 75,
+    "alt": "easter egg hunt",
+    "image": "/products/easterbunny1.jpg",
+    "tags": [
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/easterbunny1.jpg"
+  },
+  {
+    "name": "Farmyard Fun",
+    "price": 75,
+    "alt": "farmyard fun",
+    "image": "/products/farmerboy1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/farmerboy1.jpg"
+  },
+  {
+    "name": "Lemon Fun 1",
+    "price": 75,
+    "alt": "lemon fun 1",
+    "image": "/products/lemon1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/lemon1.jpg"
+  },
+  {
+    "name": "Crowd Cake Smash",
+    "price": 75,
+    "alt": "crowd cake smash",
+    "image": "/products/kingcakesmash.jpg",
+    "tags": [
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/kingcakesmash.jpg"
+  },
+  {
+    "name": "Lemon Fun 2",
+    "price": 75,
+    "alt": "lemon fun 2",
+    "image": "/products/lemon2.jpg",
+    "tags": [
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/lemon2.jpg"
+  },
+  {
+    "name": "Game Time 2",
+    "price": 75,
+    "alt": "game time 2",
+    "image": "/products/marioboy1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/marioboy1.jpg"
+  },
+  {
+    "name": "Circus Show",
+    "price": 75,
+    "alt": "circus show",
+    "image": "/products/olddumbo1.jpg",
+    "tags": [
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/olddumbo1.jpg"
+  },
+  {
+    "name": "Forest Fairtale",
+    "price": 75,
+    "alt": "forest fairtale",
+    "image": "/products/oldwinniepoon.jpg",
+    "tags": [
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/oldwinniepoon.jpg"
+  },
+  {
+    "name": "Pizza Kitchen 1",
+    "price": 75,
+    "alt": "pizza kitchen",
+    "image": "/products/pizzaboy1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/pizzaboy1.jpg"
+  },
+  {
+    "name": "Rubber Duck Fun",
+    "price": 75,
+    "alt": "rubber duck fun",
+    "image": "/products/rubberduck1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/rubberduck1.jpg"
+  },
+  {
+    "name": "Toys Party",
+    "price": 75,
+    "alt": "toys party",
+    "image": "/products/toystoryboy1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/toystoryboy1.jpg"
+  },
+  {
+    "name": "Doll Street Fun",
+    "price": 75,
+    "alt": "doll street fun",
+    "image": "/products/sesamestreet1.jpg",
+    "tags": [
+      "boy",
+      "new"
+    ],
+    "link": "/products/sesamestreet1.jpg"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 13.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman1.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "meta": "+ 2 colors",
+    "link": "/products/woman1.jpeg"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman2.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "link": "/products/woman2.jpeg"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 13.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman3.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "meta": "+ 2 colors",
+    "link": "/products/woman3.jpeg"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman4.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "link": "/products/woman4.jpeg"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman5.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "originalPrice": 31.5,
+    "link": "/products/woman5.jpeg"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 21,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman6.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "link": "/products/woman6.jpeg"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman3.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "link": "/products/woman3.jpeg"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.9,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman2.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "originalPrice": 31.5,
+    "link": "/products/woman2.jpeg"
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 21,
+    "alt": "relaxed t shirt woman",
+    "image": "/products/woman1.jpeg",
+    "tags": [
+      "woman"
+    ],
+    "link": "/products/woman1.jpeg"
+  }
+]

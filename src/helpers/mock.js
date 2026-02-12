@@ -9,8 +9,12 @@ function generateMockProductData(count, tag) {
   return filtered.slice(0, count);
 }
 
+function getProductCountByTag(tag) {
+  return productJson.filter((item) => item.tags && item.tags.includes(tag)).length;
+}
+
 function generateMockBlogData(count) {
   return blogJson.slice(0, count);
 }
 
-export { generateMockProductData, generateMockBlogData };
+export { generateMockProductData, generateMockBlogData, getProductCountByTag };

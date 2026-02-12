@@ -5,20 +5,21 @@ import Banner from '../components/Banner';
 import Breadcrumbs from '../components/Breadcrumbs';
 import CardController from '../components/CardController';
 import Container from '../components/Container';
-import Chip from '../components/Chip';
 import Icon from '../components/Icons/Icon';
 import Layout from '../components/Layout';
 import LayoutOption from '../components/LayoutOption';
 import ProductCardGrid from '../components/ProductCardGrid';
-import { generateMockProductData } from '../helpers/mock';
+import { generateMockProductData, getProductCountByTag } from '../helpers/mock';
 import Button from '../components/Button';
 import Config from '../config.json';
 
 const ShopPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);
   const [loadedCount, setLoadedCount] = useState(6);
-  const data = generateMockProductData(loadedCount, 'boy');
-  const totalItems = 476;
+  const totalItems = getProductCountByTag('boy');
+  const shownCount = Math.min(loadedCount, totalItems);
+  const hasMore = loadedCount < totalItems;
+  const data = generateMockProductData(shownCount, 'boy');
 
   useEffect(() => {
     window.addEventListener('keydown', escapeHandler);
@@ -31,7 +32,7 @@ const ShopPage = (props) => {
   };
 
   const handleLoadMore = () => {
-    setLoadedCount(loadedCount + 6);
+    setLoadedCount((prev) => Math.min(prev + 6, totalItems));
   };
 
   return (
@@ -56,7 +57,7 @@ const ShopPage = (props) => {
         />
         <Container size={'large'} spacing={'min'}>
           <div className={styles.metaContainer}>
-            <span className={styles.itemCount}>476 items</span>
+            <span className={styles.itemCount}>{totalItems} items</span>
             <div className={styles.controllerContainer}>
               <div
                 className={styles.iconContainer}
@@ -66,12 +67,6 @@ const ShopPage = (props) => {
                 <Icon symbol={'filter'} />
                 <span>Filters</span>
               </div>
-              <div
-                className={`${styles.iconContainer} ${styles.sortContainer}`}
-              >
-                <span>Sort by</span>
-                <Icon symbol={'caret'} />
-              </div>
             </div>
           </div>
           <CardController
@@ -79,19 +74,17 @@ const ShopPage = (props) => {
             visible={showFilter}
             filters={Config.filters}
           />
-          <div className={styles.chipsContainer}>
-            <Chip name={'XS'} />
-            <Chip name={'S'} />
-          </div>
           <div className={styles.productContainer}>
-            <span className={styles.mobileItemCount}>476 items</span>
-            <ProductCardGrid data={data}></ProductCardGrid>
+            <span className={styles.mobileItemCount}>{totalItems} items</span>
+            <ProductCardGrid data={data} showPrice={false}></ProductCardGrid>
           </div>
           <div className={styles.loadMoreContainer}>
-            <span>{loadedCount} of {totalItems}</span>
-            <Button fullWidth level={'secondary'} onClick={handleLoadMore}>
-              LOAD MORE
-            </Button>
+            <span>{shownCount} of {totalItems}</span>
+            {hasMore && (
+              <Button fullWidth level={'secondary'} onClick={handleLoadMore}>
+                LOAD MORE
+              </Button>
+            )}
           </div>
         </Container>
       </div>

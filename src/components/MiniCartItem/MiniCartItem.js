@@ -9,7 +9,8 @@ import * as styles from './MiniCartItem.module.css';
 import { toOptimizedImage } from '../../helpers/general';
 
 const MiniCartItem = (props) => {
-  const { image, alt, name, price, color, size } = props;
+  const { id, image, alt, name, price, color, size, quantity = 1, onRemove, onQuantityChange } = props;
+  const lineTotal = (price ?? 0) * (quantity ?? 1);
 
   return (
     <div className={styles.root}>
@@ -24,7 +25,7 @@ const MiniCartItem = (props) => {
         <div className={styles.metaContainer}>
           <span className={styles.name}>{name}</span>
           <div className={styles.priceContainer}>
-            <CurrencyFormatter amount={price} />
+            <CurrencyFormatter amount={lineTotal} />
           </div>
           <span className={styles.meta}>Color: {color}</span>
           <span className={styles.meta}>
@@ -33,11 +34,14 @@ const MiniCartItem = (props) => {
           </span>
         </div>
         <div className={styles.adjustItemContainer}>
-          <AdjustItem />
+          <AdjustItem
+            quantity={quantity}
+            onQuantityChange={onQuantityChange}
+          />
         </div>
       </div>
       <div className={styles.closeContainer}>
-        <RemoveItem />
+        <RemoveItem onClick={() => onRemove?.(id)} />
       </div>
     </div>
   );

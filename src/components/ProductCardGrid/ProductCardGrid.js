@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import * as styles from './ProductCardGrid.module.css';
 
 import Drawer from '../Drawer';
 import ProductCard from '../ProductCard';
 import QuickView from '../QuickView';
 import Slider from '../Slider';
+import { CartContext } from '../../context/CartContext';
 
 const ProductCardGrid = (props) => {
   const [showQuickView, setShowQuickView] = useState(false);
+  const { addToCart } = useContext(CartContext);
   const { height, columns = 3, data, spacing, showSlider = false, showPrice = true } = props;
   const columnCount = {
     gridTemplateColumns: `repeat(${columns}, 1fr)`,
@@ -41,6 +43,8 @@ const ProductCardGrid = (props) => {
           meta={product.meta}
           originalPrice={product.originalPrice}
           link={linkUrl}
+          product={product}
+          onAddToCart={addToCart}
           showQuickView={() => setShowQuickView(true)}
           showPrice={showPrice}
         />
