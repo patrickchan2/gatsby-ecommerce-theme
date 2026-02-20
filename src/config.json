@@ -76,15 +76,15 @@
             },
             {
               "menuLabel": "character",
-              "menuLink": "/shop"
+              "menuLink": "/boy"
             },
             {
               "menuLabel": "grand",
-              "menuLink": "/shop"
+              "menuLink": "/boy"
             },
             {
               "menuLabel": "seasonal",
-              "menuLink": "/shop"
+              "menuLink": "/boy"
             }
           ]
         },
@@ -93,19 +93,19 @@
           "submenu": [
             {
               "menuLabel": "All themes",
-              "menuLink": "/shop"
+              "menuLink": "/girl"
             },
             {
               "menuLabel": "character",
-              "menuLink": "/shop"
+              "menuLink": "/girl"
             },
             {
               "menuLabel": "grand",
-              "menuLink": "/shop"
+              "menuLink": "/girl"
             },
             {
               "menuLabel": "seasonal",
-              "menuLink": "/shop"
+              "menuLink": "/girl"
             }
           ]
         },

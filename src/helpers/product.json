@@ -96,6 +96,7 @@
     "image": "/products/batman1.jpg",
     "tags": [
       "boy",
+      "girl",
       "new"
     ],
     "link": "/products/batman1.jpg"
@@ -118,6 +119,7 @@
     "image": "/products/captain1.jpg",
     "tags": [
       "boy",
+      "girl",
       "new"
     ],
     "link": "/products/captain1.jpg"
@@ -140,6 +142,7 @@
     "image": "/products/caterpiller1.jpg",
     "tags": [
       "boy",
+      "girl",
       "new"
     ],
     "link": "/products/caterpiller1.jpg"
@@ -151,6 +154,7 @@
     "image": "/products/cowboy1.jpg",
     "tags": [
       "boy",
+      "girl",
       "new"
     ],
     "link": "/products/cowboy1.jpg"
@@ -303,6 +307,141 @@
       "new"
     ],
     "link": "/products/sesamestreet1.jpg"
+  },
+  {
+    "name": "Wonder World",
+    "price": 75,
+    "alt": "wonder world",
+    "image": "/products/alice1.jpg",
+    "tags": [
+      "girl",
+      "new"
+    ],
+    "link": "/products/alice1.jpg"
+  },
+  {
+    "name": "Elegant Tea Party",
+    "price": 75,
+    "alt": "elegant tea party",
+    "image": "/products/campgirl1.jpg",
+    "tags": [
+      "girl",
+      "new"
+    ],
+    "link": "/products/campgirl1.jpg"
+  },
+  {
+    "name": "Night Princess",
+    "price": 75,
+    "alt": "Night Princess",
+    "image": "/products/castlenight1.jpg",
+    "tags": [
+      "girl",
+      "new"
+    ],
+    "link": "/products/castlenight1.jpg"
+  },
+  {
+    "name": "Snow Princess",
+    "price": 75,
+    "alt": "snow princess",
+    "image": "/products/elsa1.jpg",
+    "tags": [
+      "girl",
+      "new"
+    ],
+    "link": "/products/elsa1.jpg"
+  },
+  {
+    "name": "Flower Tea Party",
+    "price": 75,
+    "alt": "flower tea party",
+    "image": "/products/flower1.jpg",
+    "tags": [
+      "girl",
+      "new"
+    ],
+    "link": "/products/flower1.jpg"
+  },
+  {
+    "name": "Mermaid World",
+    "price": 75,
+    "alt": "mermaid world",
+    "image": "/products/mermaid1.jpg",
+    "tags": [
+      "girl",
+      "new"
+    ],
+    "link": "/products/mermaid1.jpg"
+  },
+  {
+    "name": "Pink Tea Party",
+    "price": 75,
+    "alt": "pink tea party",
+    "image": "/products/pinkcakesmash1.jpg",
+    "tags": [
+      "girl",
+      "new"
+    ],
+    "link": "/products/pinkcakesmash1.jpg"
+  },
+  {
+    "name": "Pizza Kitchen 2",
+    "price": 75,
+    "alt": "pizza kitchen 2",
+    "image": "/products/pizzagirl1.jpg",
+    "tags": [
+      "girl",
+      "new"
+    ],
+    "link": "/products/pizzagirl1.jpg"
+  },
+  {
+    "name": "Toys Party 2",
+    "price": 75,
+    "alt": "toys party 2",
+    "image": "/products/toystorygirl1.jpg",
+    "tags": [
+      "girl",
+      "new"
+    ],
+    "link": "/products/toystorygirl1.jpg"
+  },
+  {
+    "name": "Xmas Fun 1",
+    "price": 75,
+    "alt": "xmas fun 1",
+    "image": "/products/xmas1.jpg",
+    "tags": [
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/xmas1.jpg"
+  },
+    {
+    "name": "Xmas Fun 2",
+    "price": 75,    
+    "alt": "xmas fun 2",
+    "image": "/products/xmas2.jpg",
+    "tags": [
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/xmas2.jpg"
+  },
+    {
+    "name": "Xmas Fun 3",
+    "price": 75,
+    "alt": "xmas fun 3",
+    "image": "/products/xmas3.jpg",
+    "tags": [
+      "boy",
+      "girl",
+      "new"
+    ],
+    "link": "/products/xmas3.jpg"
   },
   {
     "name": "Relaxed-fit graphic T-shirt",
