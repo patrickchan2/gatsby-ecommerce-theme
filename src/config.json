@@ -114,11 +114,11 @@
           "submenu": [
             {
               "menuLabel": "special theme",
-              "menuLink": "/shop"
+              "menuLink": "/cakesmash"
             },
             {
               "menuLabel": "classic theme",
-              "menuLink": "/shop"
+              "menuLink": "/cakesmash"
             }
           ]
         }

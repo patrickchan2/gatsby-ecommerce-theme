@@ -58,9 +58,10 @@
     "alt": "toy room party",
     "image": "/products/toystoryboy1.jpg",
     "tags": [
-      "seasonal",
       "boy",
       "girl",
+      "cakesmash",
+      "character",
       "new"
     ],
     "link": "/products/toystoryboy1.jpg"
@@ -82,12 +83,12 @@
     "name": "Game Time",
     "price": 75,
     "alt": "game time",
-    "image": "/products/mario1.jpg",
+    "image": "/products/mariogirl1.jpg",
     "tags": [
       "girl",
       "new"
     ],
-    "link": "/products/mario1.jpg"
+    "link": "/products/mariogirl1.jpg"
   },
   {
     "name": "Night Hero",
@@ -108,6 +109,7 @@
     "image": "/products/blueskycakesmash1.jpg",
     "tags": [
       "boy",
+      "cakesmash",
       "new"
     ],
     "link": "/products/blueskycakesmash1.jpg"
@@ -131,6 +133,8 @@
     "image": "/products/carosel1.jpg",
     "tags": [
       "boy",
+      "girl",
+      "cakesmash",
       "new"
     ],
     "link": "/products/carosel1.jpg"
@@ -143,6 +147,7 @@
     "tags": [
       "boy",
       "girl",
+      "cakesmash",
       "new"
     ],
     "link": "/products/caterpiller1.jpg"
@@ -167,6 +172,7 @@
     "tags": [
       "boy",
       "girl",
+      "cakesmash",
       "new"
     ],
     "link": "/products/dumbo1.jpg"
@@ -179,6 +185,7 @@
     "tags": [
       "boy",
       "girl",
+      "seasonal",
       "new"
     ],
     "link": "/products/easterbunny1.jpg"
@@ -201,7 +208,8 @@
     "image": "/products/lemon1.jpg",
     "tags": [
       "boy",
-      "new"
+      "new",
+      "cakesmash"
     ],
     "link": "/products/lemon1.jpg"
   },
@@ -213,6 +221,7 @@
     "tags": [
       "boy",
       "girl",
+      "cakesmash",
       "new"
     ],
     "link": "/products/kingcakesmash.jpg"
@@ -225,6 +234,7 @@
     "tags": [
       "boy",
       "girl",
+      "cakesmash",
       "new"
     ],
     "link": "/products/lemon2.jpg"
@@ -236,6 +246,7 @@
     "image": "/products/marioboy1.jpg",
     "tags": [
       "boy",
+      "cakesmash",
       "new"
     ],
     "link": "/products/marioboy1.jpg"
@@ -248,6 +259,7 @@
     "tags": [
       "boy",
       "girl",
+      "cakesmash",
       "new"
     ],
     "link": "/products/olddumbo1.jpg"
@@ -326,6 +338,7 @@
     "image": "/products/campgirl1.jpg",
     "tags": [
       "girl",
+      "cakesmash",
       "new"
     ],
     "link": "/products/campgirl1.jpg"
@@ -359,6 +372,7 @@
     "image": "/products/flower1.jpg",
     "tags": [
       "girl",
+      "cakesmash",
       "new"
     ],
     "link": "/products/flower1.jpg"
@@ -415,6 +429,7 @@
     "tags": [
       "boy",
       "girl",
+      "seasonal",
       "new"
     ],
     "link": "/products/xmas1.jpg"
@@ -427,6 +442,7 @@
     "tags": [
       "boy",
       "girl",
+      "seasonal",
       "new"
     ],
     "link": "/products/xmas2.jpg"
@@ -439,6 +455,7 @@
     "tags": [
       "boy",
       "girl",
+      "seasonal",
       "new"
     ],
     "link": "/products/xmas3.jpg"
