@@ -1,10 +1,10 @@
 {
   "currencyList": [
+    { "value": "HKD", "label": "Hong Kong (HKD $)" },
     { "value": "AUS", "label": "Australia (AUS $)" },
     { "value": "CAD", "label": "Canada (CAD $)" },
     { "value": "USD", "label": "United States (US $)" },
-    { "value": "EUR", "label": "Germany (EUR €)" },
-    { "value": "HKD", "label": "Hong Kong (HKD $)" }
+    { "value": "EUR", "label": "Germany (EUR €)" }
   ],
   "languageList": [
     { "value": "english", "label": "English" },
@@ -12,10 +12,10 @@
     { "value": "mandarin", "label": "普通话" }
   ],
   "social": {
-    "facebook": "https://www.facebook.com/MatterDesign/",
-    "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
-    "twitter": "https://twitter.com/hellomatter",
-    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
+    "facebook": "https://www.facebook.com/kidsubabyphoto/",
+    "instagram": "https://www.instagram.com/kidsubabyphotography/",
+    "rednote": "https://www.xiaohongshu.com/explore",
+    "youtube": "https://www.youtube.com/"
   },
   "paymentOptions": {
     "visa": true,
@@ -50,15 +50,8 @@
         {
           "text": "Contact Us",
           "link": "/support#contact"
-        },
-        {
-          "text": "Shipping & Returns",
-          "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
         }
+
       ]
     }
   ],

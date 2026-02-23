@@ -36,6 +36,15 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
         {children}
       </main>
       <Footer />
+      <a
+        href="https://wa.me/85297258413"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.whatsappFloat}
+        aria-label="Chat on WhatsApp"
+      >
+        <img src="/whatsapp-icon.png" alt="WhatsApp" />
+      </a>
     </>
   );
 };

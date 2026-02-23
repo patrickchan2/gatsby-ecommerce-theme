@@ -22,7 +22,7 @@ const IndexPage = () => {
   const blogData = generateMockBlogData(3);
 
   const goToShop = () => {
-    navigate('/shop');
+    navigate('https://wa.me/85297258413');
   };
 
   return (
