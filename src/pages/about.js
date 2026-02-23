@@ -27,8 +27,8 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/about.png'}
-          title={`Kidsbaby \n A HK brand since 2019`}
+          image={'/about.jpg'}
+          title={`Kidsbaby \n A HK photography studio since 2019`}
         />
 
         <div className={styles.navContainer}>
@@ -49,8 +49,7 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+            Welcome to Kids U Baby Photography — a family-owned portrait studio based in Hong Kong, specializing in newborn, baby, kids, and family photography since 2019.
             </p>
             <br />
             <br />
@@ -64,7 +63,7 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt brand'} src={toOptimizedImage('/about1.png')}></img>
+          <img alt={'shirt brand'} src={toOptimizedImage('/about1.jpg')}></img>
         </div>
 
         <Container size={'large'} spacing={'min'}>
@@ -72,54 +71,35 @@ const AboutPage = (props) => {
             <h3>Our Values</h3>
             <div ref={valuesRef}>
               <p>
-                Sunspel produced some of the world's earliest T-shirts. In the
-                late 1800s the business made luxury tunics and undershirts from
-                lightweight Sea Island cotton for export to the Far East and
-                other warm climates. While these garments initially had silk
-                buttoned plackets, these were removed in the early 1900s and
-                replaced with simple bound necks to reduce manufacturing costs -
-                creating the T-shirt. We've supplied the world as the T-shirt
-                has evolved from underwear to outerwear, from symbol of youthful
-                rebellion to everyday wardrobe staple, and we've spent decades
-                refining its every last aspect.
+              Over the years, we've had the joy of working with over 400 families, capturing precious milestones from a baby's very first days to growing family portraits. Every photo we deliver is a reflection of our commitment to quality, care, and the little details that make your family uniquely yours. We started this studio as parents ourselves — and that changes everything. Knowing firsthand how quickly children grow and how fleeting these moments are, we approach every session with patience, genuine warmth, and a real understanding of how kids behave. We know how to make children feel comfortable and relaxed, so their true personality naturally shines through in every shot. No forced smiles. No stressful sessions. Just real, beautiful moments.
+
               </p>
               <ol>
                 <li>Be an ecowear</li>
                 <li>Sophisticated and not mass-produced</li>
                 <li>Only natural materials</li>
               </ol>
-              <img alt={'founder'} src={toOptimizedImage('/about2.png')}></img>
+              <img alt={'founder'} src={toOptimizedImage('/about2.jpg')}></img>
             </div>
             <h3>Sustainability</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+              Our studio is housed in a Grade A commercial building, offering a quiet, clean, and cozy environment that parents and little ones alike feel at home in. We've carefully designed the space to be safe, comfortable, and fully equipped — so you can focus on enjoying the experience while we take care of everything else.
+
               </p>
               <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
+              At Kids U Baby Photography, we're not just photographers — we're parents who truly get it. If you're looking for a professional kids and family photographer in Hong Kong who will treat your family with heart, we'd love to be part of your story.
+
               </p>
               <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
+              Book your session today and let's create something beautiful together.
               </p>
             </div>
           </div>
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt backwards'} src={toOptimizedImage('/about3.png')}></img>
+          <img alt={'shirt backwards'} src={toOptimizedImage('/about3.jpg')}></img>
         </div>
       </div>
     </Layout>

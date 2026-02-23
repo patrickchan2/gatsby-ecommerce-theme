@@ -60,7 +60,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'Hotest Themes'} link={'/shop'} textLink={'view all'} />
+          <Title name={'Hotest Themes'} link={'/new'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -83,7 +83,7 @@ const IndexPage = () => {
             title={'Special Theme'}
             description={`This theme is designed to capture the essence of childhood joy and innocence. With vibrant colors, playful patterns, and whimsical elements, it creates a fun and engaging environment for kids to explore and enjoy.`}
             textLink={'book now'}
-            link={'/shop'}
+            link={'https://wa.me/85297258413'}
           />
         </Container>
       </div>
@@ -92,8 +92,8 @@ const IndexPage = () => {
       <div className={styles.promotionContainer}>
         <Hero image={toOptimizedImage('/banner2.jpg')} title={`-10% off \n Early Bird book in Easter Holiday`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>Girl</Link>
-          <Link to={'/shop'}>Boy</Link>
+          <Link to={'/girl'}>Girl</Link>
+          <Link to={'/boy'}>Boy</Link>
         </div>
       </div>
 

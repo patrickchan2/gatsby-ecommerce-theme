@@ -168,7 +168,7 @@ const Footer = (prop) => {
               <span>
                 {new Date().getFullYear()} (c) . Built by{' '}
                 <Button target={true} href="https://www.grapemake.com/">
-                  Patrick.
+                  Steve
                 </Button>{' '}
                 Powered by{' '}
                 <Button target={true} href="https://grapemake.com/">
