@@ -5,9 +5,9 @@ import Hero from '../components/Hero';
 import ThemeLink from '../components/ThemeLink';
 import Layout from '../components/Layout/Layout';
 
-import * as styles from './about.module.css';
+import * as styles from './customisable.module.css';
 import { toOptimizedImage } from '../helpers/general';
-const AboutPage = (props) => {
+const CustomisablePage = (props) => {
   let historyRef = useRef();
   let valuesRef = useRef();
   let sustainabilityRef = useRef();
@@ -102,4 +102,4 @@ const AboutPage = (props) => {
   );
 };
 
-export default AboutPage;
+export default CustomisablePage;

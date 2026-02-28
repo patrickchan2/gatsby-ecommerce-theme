@@ -19,41 +19,41 @@ const BlogPage = (props) => {
       <div className={styles.root}>
         <Hero
           maxWidth={'400px'}
-          image={toOptimizedImage('/blogCover.png')}
-          title={`The new standard of Closing`}
+          image={toOptimizedImage('/blogCover.jpg')}
+          title={`Capture every shining moment`}
           ctaLink={'read story'}
-          ctaTo={'/blog/sample'}
+          ctaTo={'https://www.facebook.com/kidsubabyphoto/reviews'}
           header={'design'}
         />
 
         <div className={styles.navContainer}>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
+            to={'https://www.facebook.com/kidsubabyphoto'}
           >
             All Posts
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
+            to={'https://www.facebook.com/kidsubabyphoto'}
           >
             Design
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
+            to={'https://www.facebook.com/kidsubabyphoto'}
           >
             Collaboration
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
+            to={'https://www.facebook.com/kidsubabyphoto'}
           >
             Interview
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
+            to={'https://www.facebook.com/kidsubabyphoto'}
           >
             News
           </ThemeLink>
