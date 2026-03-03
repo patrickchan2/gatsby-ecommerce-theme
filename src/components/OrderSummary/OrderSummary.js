@@ -10,6 +10,7 @@ import * as styles from './OrderSummary.module.css';
 const OrderSummary = (props) => {
   const [coupon, setCoupon] = useState('');
   const [giftCard, setGiftCard] = useState('');
+  const { subtotal = 0 } = props;
 
   return (
     <div className={styles.root}>
@@ -19,7 +20,7 @@ const OrderSummary = (props) => {
           <div className={styles.labelContainer}>
             <span>Subtotal</span>
             <span>
-              <CurrencyFormatter amount={440} appendZero />
+              <CurrencyFormatter amount={subtotal} appendZero />
             </span>
           </div>
           <div className={styles.labelContainer}>
@@ -52,7 +53,7 @@ const OrderSummary = (props) => {
         <div className={styles.totalContainer}>
           <span>Total: </span>
           <span>
-            <CurrencyFormatter amount={440} appendZero />
+            <CurrencyFormatter amount={subtotal} appendZero />
           </span>
         </div>
       </div>

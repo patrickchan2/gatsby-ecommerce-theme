@@ -12,102 +12,53 @@ const FaqPage = (props) => {
         <Banner
           maxWidth={'650px'}
           name={`Frequently Asked Questions`}
-          bgImage={'/faqCover.png'}
+          bgImage={'/faqCover.jpg'}
           color={'var(--standard-white)'}
           height={'350px'}
         />
         <Container>
           <div className={styles.section}>
-            <span>Your Orders</span>
+            
             <div className={styles.subSection}>
-              <h3>Deliveries</h3>
-              <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
-              </p>
-              <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
-              </p>
-              <p>
-                If there’s something you want to know about your order, please
-                get in touch with us at customerservice@example.com or call us
-                on +44 (0)115 111 1111.
-              </p>
+              <h3>What is the workflow for a photo shooting session?</h3>
+              <p>Great question — here's a simple step-by-step so you'll always know what to expect:</p>
+              <ul>
+                <li><strong>After booking is confirmed</strong> — Select your preferred themes, outfits, and any additional props you'd like included. We love helping you personalise every detail!</li>
+                <li><strong>2 days before your session</strong> — We'll reach out to confirm the date, time, transport arrangements, and ask if your little one has any special needs so we can prepare accordingly.</li>
+                <li><strong>On the day of the shoot</strong> — Please make sure your baby is well-rested, fed (but not too full!), and in a comfortable mood before arriving.</li>
+                <li><strong>Arriving early</strong> — We recommend arriving <strong>10 minutes early</strong> so your child has time to get used to the studio environment and settle in before we begin.</li>
+              </ul>
+              <li><strong>💛 Pro Tip: </strong>Avoid scheduling the session right after naptime or when your baby is usually fussy. A happy, relaxed baby makes for the most beautiful photos!</li>
             </div>
             <div className={styles.subSection}>
-              <h3>Returns & Exchanges</h3>
-              <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
-              </p>
-              <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
-              </p>
+              <h3>My baby tends to cry in new environments. Will they be able to complete the whole shoot?</h3>
+                <p>Absolutely — please don't worry! Our photographers are highly experienced with babies and young children, and they know exactly how to create a calm, comfortable atmosphere for even the most sensitive little ones.</p>
+                <p>Whether your child is giggling, curious, or has a few teary moments, we believe <strong>every expression tells a beautiful story</strong>. Some of our most cherished shots are of babies caught mid-emotion — pure, authentic, and utterly precious.</p>
+                <p>We'll take our time, go at your child's pace, and make sure the whole experience feels relaxed and fun — for them and for you!</p>
             </div>
           </div>
 
           <div className={styles.section}>
-            <span>Payment</span>
+            
             <div className={styles.subSection}>
-              <h3>Shipping Rates</h3>
-              <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
-              </p>
-              <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
-              </p>
-              <p>
-                If there’s something you want to know about your order, please
-                get in touch with us at customerservice@example.com call us on
-                +44 (0)115 111 1111.
-              </p>
+              <h3>How will my photos be delivered after the session?</h3>
+              <p>We want your memories to reach you in the best possible quality! Here's how delivery works:</p>
+              <ul>
+                <li><strong>Digital files</strong> — All edited photos are delivered as <strong>high-resolution JPG files</strong>, downloadable from your own private, password-protected gallery. Easy and secure!</li>
+                <li><strong>Physical keepsakes</strong> — If your package includes printed photos or a USB drive, we'll arrange doorstep delivery via <strong>SF Express courier</strong> — no need to come to us.</li>
+              </ul>
+              <li><strong>📦 Reminder:</strong> Delivery contents depend on your chosen package. Not sure what's included? Feel free to ask us and we'll walk you through it!</li>
             </div>
             <div className={styles.subSection}>
-              <h3>Currency</h3>
-              <p>
-                Our website automatically selects the currency that matches your
-                delivery location. You can change this manually in the top left
-                hand corner of the page.
-              </p>
-              <p>
-                For deliveries to the UK, we will bill you in Pounds Sterling
-                (£), to the European Union in Euros (€), to the US in Dollars
-                ($), and to the Rest of World in Pounds Sterling (£).
-              </p>
-              <p>
-                Standard rate VAT is included in all orders to the UK and
-                Europe. Orders to the Rest of the World do not include VAT.
-                Where applicable, you will be responsible for any local country
-                import duty.
-              </p>
+              <h3>How long does a typical photo session take?</h3>
+              <p>A typical session runs between <strong>1 to 2 hours</strong>, depending on your package and how many themes or outfit changes are included. For newborns, we allow extra time as they often need feeding and settling breaks — patience is part of our process!</p>
+              <p>We never rush your session. Our goal is beautiful, natural photos — and that sometimes means taking a little breather so your child can recharge. 😊</p>
             </div>
             <div className={styles.subSection}>
-              <h3>Suspect Fraud?</h3>
-              <p>
-                Given our high levels of security, it’s very unlikely fraudulent
-                use of your card will take place on our website. But if a
-                fraudulent transaction does take place, first contact your
-                credit or debit card company so they can protect your card and
-                reimburse you. Then let us know at customerservice@example.com
-                and we will work with your card company to minimise any further
-                inconvenience to you.
-              </p>
+              <h3>What if I need to reschedule or cancel my booking?</h3>
+              <p>We completely understand — little ones can be unpredictable! If you need to reschedule, please <strong>let us know at least 48 hours in advance</strong> so we can arrange a new date that works for your family.</p>
+              <p>For cancellations, please note that the <strong>deposit is non-refundable</strong>. This helps us reserve your time slot and prepare everything specially for your session. If your circumstances change, we'd always encourage you to <strong>reschedule rather than cancel</strong> </p>
+              <li><strong>📋 Good to Know:</strong> Life with a little one is full of surprises! Reach out to us as early as possible if your plans change and we'll do our best to find a solution together.</li>
             </div>
           </div>
         </Container>

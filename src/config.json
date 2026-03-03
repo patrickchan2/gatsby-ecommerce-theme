@@ -1,10 +1,10 @@
 {
   "currencyList": [
+    { "value": "HKD", "label": "Hong Kong (HKD $)" },
     { "value": "AUS", "label": "Australia (AUS $)" },
     { "value": "CAD", "label": "Canada (CAD $)" },
     { "value": "USD", "label": "United States (US $)" },
-    { "value": "EUR", "label": "Germany (EUR €)" },
-    { "value": "HKD", "label": "Hong Kong (HKD $)" }
+    { "value": "EUR", "label": "Germany (EUR €)" }
   ],
   "languageList": [
     { "value": "english", "label": "English" },
@@ -12,10 +12,10 @@
     { "value": "mandarin", "label": "普通话" }
   ],
   "social": {
-    "facebook": "https://www.facebook.com/MatterDesign/",
-    "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
-    "twitter": "https://twitter.com/hellomatter",
-    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
+    "facebook": "https://www.facebook.com/kidsubabyphoto/",
+    "instagram": "https://www.instagram.com/kidsubabyphotography/",
+    "rednote": "https://www.xiaohongshu.com/explore",
+    "youtube": "https://www.youtube.com/"
   },
   "paymentOptions": {
     "visa": true,
@@ -35,7 +35,7 @@
           "link": "/blog"
         },
         {
-          "text": "Privacy Policy",
+          "text": "Terms and Conditions",
           "link": "/support#policy"
         }
       ]
@@ -50,15 +50,8 @@
         {
           "text": "Contact Us",
           "link": "/support#contact"
-        },
-        {
-          "text": "Shipping & Returns",
-          "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
         }
+
       ]
     }
   ],
@@ -72,19 +65,19 @@
           "submenu": [
             {
               "menuLabel": "All themes",
-              "menuLink": "/shop"
+              "menuLink": "/boy"
             },
             {
               "menuLabel": "character",
-              "menuLink": "/shop"
+              "menuLink": "/boy"
             },
             {
               "menuLabel": "grand",
-              "menuLink": "/shop"
+              "menuLink": "/boy"
             },
             {
               "menuLabel": "seasonal",
-              "menuLink": "/shop"
+              "menuLink": "/boy"
             }
           ]
         },
@@ -93,19 +86,19 @@
           "submenu": [
             {
               "menuLabel": "All themes",
-              "menuLink": "/shop"
+              "menuLink": "/girl"
             },
             {
               "menuLabel": "character",
-              "menuLink": "/shop"
+              "menuLink": "/girl"
             },
             {
               "menuLabel": "grand",
-              "menuLink": "/shop"
+              "menuLink": "/girl"
             },
             {
               "menuLabel": "seasonal",
-              "menuLink": "/shop"
+              "menuLink": "/girl"
             }
           ]
         },
@@ -114,11 +107,11 @@
           "submenu": [
             {
               "menuLabel": "special theme",
-              "menuLink": "/shop"
+              "menuLink": "/cakesmash"
             },
             {
               "menuLabel": "classic theme",
-              "menuLink": "/shop"
+              "menuLink": "/cakesmash"
             }
           ]
         }
@@ -137,37 +130,23 @@
   ],
   "filters": [
     {
-      "category": "colour",
+      "category": "Category",
       "items": [
-        { "name": "Black", "value": true },
-        { "name": "Green", "value": false },
-        { "name": "Dark Blue", "value": false },
-        { "name": "Blue", "value": true },
-        { "name": "Grey", "value": false },
-        { "name": "Red", "value": false }
+        { "name": "Boy", "value": true },
+        { "name": "Girl", "value": false },
+        { "name": "Cake Smash", "value": false },
+        { "name": "Festival", "value": false }
       ]
     },
 
     {
-      "category": "size",
+      "category": "Style",
       "items": [
-        { "name": "XXS", "value": false },
-        { "name": "XS", "value": false },
-        { "name": "S", "value": false },
-        { "name": "M", "value": false },
-        { "name": "L", "value": false },
-        { "name": "XL", "value": false },
-        { "name": "XXL", "value": false },
-        { "name": "Onesize", "value": false }
-      ]
-    },
-    {
-      "category": "gender",
-      "items": [
-        { "name": "Male", "value": false },
-        { "name": "Female", "value": false },
-        { "name": "Unisex", "value": false }
+        { "name": "Character", "value": false },
+        { "name": "Grand", "value": false },
+        { "name": "Seasonal", "value": false }
       ]
     }
+    
   ]
 }

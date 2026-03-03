@@ -4,12 +4,16 @@ import Icon from '../Icons/Icon';
 import * as styles from './AdjustItem.module.css';
 
 const AdjustItem = (props) => {
-  const { isTransparent } = props;
-  const [qty, setQty] = useState(1);
+  const { isTransparent, quantity, onQuantityChange } = props;
+  const [internalQty, setInternalQty] = useState(1);
+  const isControlled = quantity !== undefined && onQuantityChange;
+  const qty = isControlled ? quantity : internalQty;
+  const setQty = isControlled ? (n) => onQuantityChange(Math.max(1, n)) : setInternalQty;
 
   const handleOnChange = (e) => {
-    const num = parseInt(e.target.value);
-    setQty(num);
+    const num = parseInt(e.target.value, 10);
+    const next = isNaN(num) ? 1 : Math.max(1, num);
+    setQty(next);
   };
 
   return (

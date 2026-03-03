@@ -16,17 +16,51 @@ const ProductCard = (props) => {
     originalPrice,
     meta,
     showQuickView,
+    onAddToCart,
+    product,
     height = 580,
     showPrice = true,
+    link,
   } = props;
 
   const handleRouteToProduct = () => {
-    navigate('/product/sample');
+    if (link) {
+      const isFile = /\.(jpg|jpeg|png|gif|webp|svg)$/i.test(link);
+
+      if (isFile) {
+        window.location.href = link;
+        return;
+      }
+
+      // For any absolute/external links open via location, otherwise use Gatsby navigation
+      const isExternal = /^(?:[a-z]+:)?\/\//i.test(link);
+
+      if (isExternal) {
+        window.location.href = link;
+        return;
+      }
+
+      navigate(link);
+      return;
+    }
+
+    const slug = name
+      ? name
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/(^-|-$)/g, '')
+      : 'sample';
+
+    navigate(`/product/${slug}`);
   };
 
-  const handleQuickView = (e) => {
+  const handleBagClick = (e) => {
     e.stopPropagation();
-    showQuickView();
+    if (onAddToCart && product) {
+      onAddToCart(product);
+    } else if (showQuickView) {
+      showQuickView();
+    }
   };
 
   const handleFavorite = (e) => {
@@ -45,7 +79,7 @@ const ProductCard = (props) => {
         <div
           className={styles.bagContainer}
           role={'presentation'}
-          onClick={(e) => handleQuickView(e)}
+          onClick={(e) => handleBagClick(e)}
         >
           <Icon symbol={'bagPlus'} />
         </div>

@@ -22,7 +22,7 @@ const IndexPage = () => {
   const blogData = generateMockBlogData(3);
 
   const goToShop = () => {
-    navigate('/shop');
+    navigate('https://wa.me/85297258413');
   };
 
   return (
@@ -60,7 +60,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'Hotest Themes'} link={'/shop'} textLink={'view all'} />
+          <Title name={'Hotest Themes'} link={'/new'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -83,7 +83,7 @@ const IndexPage = () => {
             title={'Special Theme'}
             description={`This theme is designed to capture the essence of childhood joy and innocence. With vibrant colors, playful patterns, and whimsical elements, it creates a fun and engaging environment for kids to explore and enjoy.`}
             textLink={'book now'}
-            link={'/shop'}
+            link={'https://wa.me/85297258413'}
           />
         </Container>
       </div>
@@ -92,8 +92,8 @@ const IndexPage = () => {
       <div className={styles.promotionContainer}>
         <Hero image={toOptimizedImage('/banner2.jpg')} title={`-10% off \n Early Bird book in Easter Holiday`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>Girl</Link>
-          <Link to={'/shop'}>Boy</Link>
+          <Link to={'/girl'}>Girl</Link>
+          <Link to={'/boy'}>Boy</Link>
         </div>
       </div>
 
@@ -117,10 +117,10 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={toOptimizedImage('/banner3.png')}
-          title={'We are Sustainable'}
+          image={toOptimizedImage('/banner3.jpg')}
+          title={'Customisable Themes'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'Your idea can be brought to life with our customisable themes.'
           }
           ctaText={'read more'}
           maxWidth={'660px'}
@@ -131,14 +131,14 @@ const IndexPage = () => {
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Styled by You'}
+          name={'Magic Moments'}
           subtitle={'Tag @kidsubaby to be featured.'}
         />
         <div className={styles.socialContentGrid}>
-          <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />
-          <img src={toOptimizedImage(`/social/socialMedia2.png`)} alt={'social media 2'} />
-          <img src={toOptimizedImage(`/social/socialMedia3.png`)} alt={'social media 3'} />
-          <img src={toOptimizedImage(`/social/socialMedia4.png`)} alt={'social media 4'} />
+          <img src={toOptimizedImage(`/social/socialMedia1.jpg`)} alt={'social media 1'} />
+          <img src={toOptimizedImage(`/social/socialMedia2.jpg`)} alt={'social media 2'} />
+          <img src={toOptimizedImage(`/social/socialMedia3.jpg`)} alt={'social media 3'} />
+          <img src={toOptimizedImage(`/social/socialMedia4.jpg`)} alt={'social media 4'} />
         </div>
       </div>
       <AttributeGrid />

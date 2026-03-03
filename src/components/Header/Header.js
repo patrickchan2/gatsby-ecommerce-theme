@@ -1,7 +1,8 @@
-import React, { useState, useEffect, createRef } from 'react';
+import React, { useState, useEffect, createRef, useContext } from 'react';
 import { Link, navigate } from 'gatsby';
 
 import { isAuth } from '../../helpers/general';
+import { CartContext } from '../../context/CartContext';
 
 import AddNotification from '../AddNotification';
 import Brand from '../Brand';
@@ -19,6 +20,12 @@ const Header = (prop) => {
   const [showMiniCart, setShowMiniCart] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showMenu, setShowMenu] = useState(true);
+  const { registerOpenMiniCart } = useContext(CartContext);
+
+  useEffect(() => {
+    const unregister = registerOpenMiniCart(() => setShowMiniCart(true));
+    return unregister;
+  }, [registerOpenMiniCart]);
 
   const [menu, setMenu] = useState();
   const [activeMenu, setActiveMenu] = useState();

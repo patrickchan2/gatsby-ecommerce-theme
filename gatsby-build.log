@@ -1,0 +1,207 @@
+success compile gatsby files - 0.399s
+
+[2K[1A[2K[Gsuccess load gatsby config - 0.008s
+
+[2K[1A[2K[Gsuccess load plugins - 0.100s
+
+[2K[1A[2K[Gsuccess onPreInit - 0.000s
+
+[2K[1A[2K[Gsuccess initialize cache - 0.022s
+
+[2K[1A[2K[Gsuccess copy gatsby files - 0.037s
+
+[2K[1A[2K[Gsuccess Compiling Gatsby Functions - 0.147s
+
+[2K[1A[2K[Gsuccess onPreBootstrap - 0.154s
+
+[2K[1A[2K[Gsuccess createSchemaCustomization - 0.002s
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.001s
+
+[2K[1A[2K[Gsuccess source and transform nodes - 0.014s
+
+[2K[1A[2K[Ginfo Writing GraphQL type definitions to
+/Users/patrickchan/Documents/code/web/gatsby-ecommerce-theme/.cache/schema.gql
+
+[2K[1A[2K[Gsuccess building schema - 0.123s
+
+[2K[1A[2K[Gsuccess createPages - 0.004s
+
+[2K[1A[2K[Gsuccess createPagesStatefully - 0.135s
+
+[2K[1A[2K[Ginfo Total nodes: 47, SitePage nodes: 27 (use --verbose for breakdown)
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.000s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.000s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.164s
+
+[2K[1A[2K[Gsuccess write out redirect data - 0.002s
+
+[2K[1A[2K[Gsuccess onPostBootstrap - 0.000s
+
+[2K[1A[2K[Ginfo bootstrap finished - 3.244s
+
+[2K[1A[2K[Gsuccess write out requires - 0.013s
+
+[2K[1A[2K[Gsuccess Building production JavaScript and CSS bundles - 4.535s
+
+[2K[1A[2K[Gsuccess Building HTML renderer - 2.989s
+
+[2K[1A[2K[Gsuccess Execute page configs - 0.015s
+
+[2K[1A[2K[Gsuccess Caching Webpack compilations - 0.165s
+
+[2K[1A[2K[Gsuccess run queries in workers - 0.046s - 27/27 586.30/s
+
+[2K[1A[2K[Gsuccess Merge worker state - 0.002s
+
+[2K[1A[2K[Gsuccess Rewriting compilation hashes - 0.006s
+
+[2K[1A[2K[Gsuccess Writing page-data.json and slice-data.json files to public directory -
+0.021s - 27/27 1284.07/s
+
+[2K[1A[2K[Gsuccess Building static HTML for pages - 1.322s - 27/27 20.42/s
+
+[2K[1A[2K[Ginfo There are no new or changed slice html files to build.
+
+[2K[1A[2K[Gsuccess stitching slices - 0.012s
+
+[2K[1A[2K[Gsuccess onPostBuild - 0.000s
+
+[2K[1A[2K[G
+
+Pages
+
+┌ src/pages/404.js
+│ ├   /404/
+│ └   /404.html
+├ src/pages/about.js
+│ └   /about/
+├ src/pages/accountSuccess.js
+│ └   /accountSuccess/
+├ src/pages/boy.js
+│ └   /boy/
+├ src/pages/cart.js
+│ └   /cart/
+├ src/pages/faq.js
+│ └   /faq/
+├ src/pages/forgot.js
+│ └   /forgot/
+├ src/pages/how-to-use.js
+│ └   /how-to-use/
+├ src/pages/index.js
+│ └   /
+├ src/pages/login.js
+│ └   /login/
+├ src/pages/orderConfirm.js
+│ └   /orderConfirm/
+├ src/pages/search.js
+│ └   /search/
+├ src/pages/shop.js
+│ └   /shop/
+├ src/pages/shopV2.js
+│ └   /shopV2/
+├ src/pages/signup.js
+│ └   /signup/
+├ src/pages/styling.js
+│ └   /styling/
+├ src/pages/support.js
+│ └   /support/
+├ src/pages/account/address.js
+│ └   /account/address/
+├ src/pages/account/favorites.js
+│ └   /account/favorites/
+├ src/pages/account/index.js
+│ └   /account/
+├ src/pages/account/orders.js
+│ └   /account/orders/
+├ src/pages/account/settings.js
+│ └   /account/settings/
+├ src/pages/account/viewed.js
+│ └   /account/viewed/
+├ src/pages/blog/index.js
+│ └   /blog/
+├ src/pages/blog/sample.js
+│ └   /blog/sample/
+└ src/pages/product/sample.js
+  └   /product/sample/
+
+  ╭────────────────────────────────────────────────────────────────╮
+  │                                                                │
+  │   (SSG) Generated at build time                                │
+  │ D (DSG) Deferred static generation - page generated at runtime │
+  │ ∞ (SSR) Server-side renders at runtime (uses getServerData)    │
+  │ λ (Function) Gatsby function                                   │
+  │                                                                │
+  ╰────────────────────────────────────────────────────────────────╯
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[Ginfo Done building in 12.568529417 sec
+
+
+Pages
+
+┌ src/pages/404.js
+│ ├   /404/
+│ └   /404.html
+├ src/pages/about.js
+│ └   /about/
+├ src/pages/accountSuccess.js
+│ └   /accountSuccess/
+├ src/pages/boy.js
+│ └   /boy/
+├ src/pages/cart.js
+│ └   /cart/
+├ src/pages/faq.js
+│ └   /faq/
+├ src/pages/forgot.js
+│ └   /forgot/
+├ src/pages/how-to-use.js
+│ └   /how-to-use/
+├ src/pages/index.js
+│ └   /
+├ src/pages/login.js
+│ └   /login/
+├ src/pages/orderConfirm.js
+│ └   /orderConfirm/
+├ src/pages/search.js
+│ └   /search/
+├ src/pages/shop.js
+│ └   /shop/
+├ src/pages/shopV2.js
+│ └   /shopV2/
+├ src/pages/signup.js
+│ └   /signup/
+├ src/pages/styling.js
+│ └   /styling/
+├ src/pages/support.js
+│ └   /support/
+├ src/pages/account/address.js
+│ └   /account/address/
+├ src/pages/account/favorites.js
+│ └   /account/favorites/
+├ src/pages/account/index.js
+│ └   /account/
+├ src/pages/account/orders.js
+│ └   /account/orders/
+├ src/pages/account/settings.js
+│ └   /account/settings/
+├ src/pages/account/viewed.js
+│ └   /account/viewed/
+├ src/pages/blog/index.js
+│ └   /blog/
+├ src/pages/blog/sample.js
+│ └   /blog/sample/
+└ src/pages/product/sample.js
+  └   /product/sample/
+
+  ╭────────────────────────────────────────────────────────────────╮
+  │                                                                │
+  │   (SSG) Generated at build time                                │
+  │ D (DSG) Deferred static generation - page generated at runtime │
+  │ ∞ (SSR) Server-side renders at runtime (uses getServerData)    │
+  │ λ (Function) Gatsby function                                   │
+  │                                                                │
+  ╰────────────────────────────────────────────────────────────────╯
+
