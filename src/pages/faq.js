@@ -28,7 +28,7 @@ const FaqPage = (props) => {
                 <li><strong>On the day of the shoot</strong> — Please make sure your baby is well-rested, fed (but not too full!), and in a comfortable mood before arriving.</li>
                 <li><strong>Arriving early</strong> — We recommend arriving <strong>10 minutes early</strong> so your child has time to get used to the studio environment and settle in before we begin.</li>
               </ul>
-              <li><strong>💛 Pro Tip: </strong>Avoid scheduling the session right after naptime or when your baby is usually fussy. A happy, relaxed baby makes for the most beautiful photos!</li>
+              <li><strong>Pro Tip: </strong>Avoid scheduling the session right after naptime or when your baby is usually fussy. A happy, relaxed baby makes for the most beautiful photos!</li>
             </div>
             <div className={styles.subSection}>
               <h3>My baby tends to cry in new environments. Will they be able to complete the whole shoot?</h3>
@@ -47,7 +47,7 @@ const FaqPage = (props) => {
                 <li><strong>Digital files</strong> — All edited photos are delivered as <strong>high-resolution JPG files</strong>, downloadable from your own private, password-protected gallery. Easy and secure!</li>
                 <li><strong>Physical keepsakes</strong> — If your package includes printed photos or a USB drive, we'll arrange doorstep delivery via <strong>SF Express courier</strong> — no need to come to us.</li>
               </ul>
-              <li><strong>📦 Reminder:</strong> Delivery contents depend on your chosen package. Not sure what's included? Feel free to ask us and we'll walk you through it!</li>
+              <li><strong>Reminder:</strong> Delivery contents depend on your chosen package. Not sure what's included? Feel free to ask us and we'll walk you through it!</li>
             </div>
             <div className={styles.subSection}>
               <h3>How long does a typical photo session take?</h3>
@@ -58,7 +58,7 @@ const FaqPage = (props) => {
               <h3>What if I need to reschedule or cancel my booking?</h3>
               <p>We completely understand — little ones can be unpredictable! If you need to reschedule, please <strong>let us know at least 48 hours in advance</strong> so we can arrange a new date that works for your family.</p>
               <p>For cancellations, please note that the <strong>deposit is non-refundable</strong>. This helps us reserve your time slot and prepare everything specially for your session. If your circumstances change, we'd always encourage you to <strong>reschedule rather than cancel</strong> </p>
-              <li><strong>📋 Good to Know:</strong> Life with a little one is full of surprises! Reach out to us as early as possible if your plans change and we'll do our best to find a solution together.</li>
+              <li><strong>Good to Know:</strong> Life with a little one is full of surprises! Reach out to us as early as possible if your plans change and we'll do our best to find a solution together.</li>
             </div>
           </div>
         </Container>
