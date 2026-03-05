@@ -22,7 +22,7 @@ const IndexPage = () => {
   const blogData = generateMockBlogData(3);
 
   const goToShop = () => {
-    navigate('https://wa.me/85297258413');
+    navigate('/enquiry');
   };
 
   return (
@@ -83,7 +83,7 @@ const IndexPage = () => {
             title={'Special Theme'}
             description={`This theme is designed to capture the essence of childhood joy and innocence. With vibrant colors, playful patterns, and whimsical elements, it creates a fun and engaging environment for kids to explore and enjoy.`}
             textLink={'book now'}
-            link={'https://wa.me/85297258413'}
+            link={'/enquiry'}
           />
         </Container>
       </div>
