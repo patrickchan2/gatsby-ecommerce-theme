@@ -37,9 +37,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
       </main>
       <Footer />
       <a
-        href="https://wa.me/85297258413"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="/enquiry"
         className={styles.whatsappFloat}
         aria-label="Chat on WhatsApp"
       >

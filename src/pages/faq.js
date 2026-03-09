@@ -52,7 +52,7 @@ const FaqPage = (props) => {
             <div className={styles.subSection}>
               <h3>How long does a typical photo session take?</h3>
               <p>A typical session runs between <strong>1 to 2 hours</strong>, depending on your package and how many themes or outfit changes are included. For newborns, we allow extra time as they often need feeding and settling breaks — patience is part of our process!</p>
-              <p>We never rush your session. Our goal is beautiful, natural photos — and that sometimes means taking a little breather so your child can recharge. 😊</p>
+              <p>We never rush your session. Our goal is beautiful, natural photos — and that sometimes means taking a little breather so your child can recharge. </p>
             </div>
             <div className={styles.subSection}>
               <h3>What if I need to reschedule or cancel my booking?</h3>
