@@ -12,6 +12,9 @@ import * as styles from './Footer.module.css';
 
 const Footer = (prop) => {
   const [email, setEmail] = useState('');
+  const [country, setCountry] = useState(
+    (Config.currencyList && Config.currencyList[0]?.value) || ''
+  );
 
   const subscribeHandler = (e) => {
     e.preventDefault();
@@ -138,6 +141,8 @@ const Footer = (prop) => {
               <Dropdown
                 label={'Country/Region'}
                 optionList={Config.currencyList}
+                value={country}
+                onChange={(e) => setCountry(e.target.value)}
               />
               <Dropdown label={'Language'} optionList={Config.languageList} />
             </div>
