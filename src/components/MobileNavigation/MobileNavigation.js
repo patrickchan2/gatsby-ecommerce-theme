@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link, navigate } from 'gatsby';
 
 import Config from '../../config.json';
+import { LanguageContext } from '../../context/LanguageContext';
 import Icon from '../Icons/Icon';
 import { isAuth } from '../../helpers/general';
 
@@ -13,6 +14,7 @@ import * as styles from './MobileNavigation.module.css';
 
 const MobileNavigation = (props) => {
   const { close } = props;
+  const { t } = useContext(LanguageContext);
 
   const [subMenu, setSubMenu] = useState();
   const [category, setCategory] = useState();
@@ -68,7 +70,7 @@ const MobileNavigation = (props) => {
               <div className={styles.previousIcon}>
                 <Icon symbol={'caret'}></Icon>
               </div>
-              <span>{category.menuLabel}</span>
+              <span>{t(category.menuLabel)}</span>
             </div>
           )}
 
@@ -81,7 +83,7 @@ const MobileNavigation = (props) => {
               <div className={styles.previousIcon}>
                 <Icon symbol={'caret'}></Icon>
               </div>
-              <span>{subMenu.categoryLabel}</span>
+              <span>{t(subMenu.categoryLabel)}</span>
             </div>
           )}
         </div>
@@ -105,7 +107,7 @@ const MobileNavigation = (props) => {
                       }
                     }}
                   >
-                    {navObject.menuLabel}
+                    {t(navObject.menuLabel)}
                     {hasSubmenu && <Icon symbol={'caret'}></Icon>}
                   </Link>
                 );
@@ -131,7 +133,7 @@ const MobileNavigation = (props) => {
                   }}
                   className={`${styles.mobileLink}`}
                 >
-                  {menuItem.categoryLabel}
+                  {t(menuItem.categoryLabel)}
                   <Icon symbol={'caret'}></Icon>
                 </Link>
               );
@@ -145,7 +147,7 @@ const MobileNavigation = (props) => {
                   to={menuItem.menuLink}
                   className={`${styles.edgeLink}`}
                 >
-                  {menuItem.menuLabel}
+                  {t(menuItem.menuLabel)}
                 </Link>
               );
             })}

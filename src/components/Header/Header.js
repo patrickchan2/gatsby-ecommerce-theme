@@ -111,7 +111,7 @@ const Header = (prop) => {
                   }`}
                   to={navObject.menuLink}
                 >
-                  {navObject.menuLabel}
+                  {t(navObject.menuLabel)}
                 </Link>
               ))}
             </nav>
