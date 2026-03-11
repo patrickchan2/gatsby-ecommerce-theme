@@ -3,6 +3,7 @@ import { Link, navigate } from 'gatsby';
 
 import { isAuth } from '../../helpers/general';
 import { CartContext } from '../../context/CartContext';
+import { LanguageContext } from '../../context/LanguageContext';
 
 import AddNotification from '../AddNotification';
 import Brand from '../Brand';
@@ -21,6 +22,7 @@ const Header = (prop) => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showMenu, setShowMenu] = useState(true);
   const { registerOpenMiniCart } = useContext(CartContext);
+  const { t } = useContext(LanguageContext);
 
   useEffect(() => {
     const unregister = registerOpenMiniCart(() => setShowMiniCart(true));
@@ -34,7 +36,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Kids and Baby Photography Studio in Hong Kong';
+  const bannerMessage = t('header.banner');
   const searchSuggestions = [
     'baby',
     'kids',
@@ -174,7 +176,7 @@ const Header = (prop) => {
             showSearch === true ? styles.show : styles.hide
           }`}
         >
-          <h4>What are you looking for?</h4>
+          <h4>{t('search.title')}</h4>
           <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
             <FormInputField
               ref={searchRef}

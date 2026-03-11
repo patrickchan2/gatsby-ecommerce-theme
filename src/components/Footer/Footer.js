@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 
+import { LanguageContext } from '../../context/LanguageContext';
 import Accordion from '../Accordion';
 import Container from '../Container';
 import Dropdown from '../Dropdown/Dropdown';
@@ -11,6 +12,7 @@ import Config from '../../config.json';
 import * as styles from './Footer.module.css';
 
 const Footer = (prop) => {
+  const { language, setLanguage } = useContext(LanguageContext);
   const [email, setEmail] = useState('');
   const [country, setCountry] = useState(
     (Config.currencyList && Config.currencyList[0]?.value) || ''
@@ -144,7 +146,12 @@ const Footer = (prop) => {
                 value={country}
                 onChange={(e) => setCountry(e.target.value)}
               />
-              <Dropdown label={'Language'} optionList={Config.languageList} />
+              <Dropdown
+                label={'Language'}
+                optionList={Config.languageList}
+                value={language}
+                onChange={(e) => setLanguage(e.target.value)}
+              />
             </div>
             <div className={styles.copyrightContainer}>
               <div className={styles.creditCardContainer}>
