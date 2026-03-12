@@ -9,7 +9,7 @@
   "languageList": [
     { "value": "english", "label": "English" },
     { "value": "german", "label": "Deutsch" },
-    { "value": "mandarin", "label": "普通话" },
+    { "value": "mandarin", "label": "簡中" },
     { "value": "traditionalchinese", "label": "綮中" }
   ],
   "social": {
@@ -25,34 +25,33 @@
   },
   "footerLinks": [
     {
-      "subTitle": "Info",
+      "subTitle": "footer.info",
       "links": [
         {
-          "text": "About Us",
+          "text": "footer.aboutUs",
           "link": "/about"
         },
         {
-          "text": "Journal",
+          "text": "footer.journal",
           "link": "/blog"
         },
         {
-          "text": "Terms and Conditions",
+          "text": "footer.terms",
           "link": "/support#policy"
         }
       ]
     },
     {
-      "subTitle": "Support",
+      "subTitle": "footer.support",
       "links": [
         {
-          "text": "FAQ",
+          "text": "footer.faq",
           "link": "/faq"
         },
         {
-          "text": "Contact Us",
+          "text": "footer.contact",
           "link": "/support#contact"
         }
-
       ]
     }
   ],

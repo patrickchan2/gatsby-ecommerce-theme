@@ -12,7 +12,7 @@ import Config from '../../config.json';
 import * as styles from './Footer.module.css';
 
 const Footer = (prop) => {
-  const { language, setLanguage } = useContext(LanguageContext);
+  const { language, setLanguage, t } = useContext(LanguageContext);
   const [email, setEmail] = useState('');
   const [country, setCountry] = useState(
     (Config.currencyList && Config.currencyList[0]?.value) || ''
@@ -35,7 +35,7 @@ const Footer = (prop) => {
           return (
             <li key={index}>
               <Link className={`${styles.link} fancy`} to={link.link}>
-                {link.text}
+                {t(link.text)}
               </Link>
             </li>
           );
@@ -55,7 +55,7 @@ const Footer = (prop) => {
                   {/* for web version */}
                   <div className={styles.footerLinks}>
                     <span className={styles.linkTitle}>
-                      {linkCollection.subTitle}
+                      {t(linkCollection.subTitle)}
                     </span>
                     {renderLinks(linkCollection)}
                   </div>
@@ -64,7 +64,7 @@ const Footer = (prop) => {
                     <Accordion
                       customStyle={styles}
                       type={'add'}
-                      title={linkCollection.subTitle}
+                      title={t(linkCollection.subTitle)}
                     >
                       {renderLinks(linkCollection)}
                     </Accordion>
@@ -74,10 +74,8 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Newsletter</span>
-                <p className={styles.promoMessage}>
-                  Get our latest news and updates, you will also get flash discounts instantly!
-                </p>
+                <span className={styles.linkTitle}>{t('footer.newsletter')}</span>
+                <p className={styles.promoMessage}>{t('footer.promo')}</p>
                 <form
                   className={styles.newsLetterForm}
                   onSubmit={(e) => subscribeHandler(e)}
@@ -86,7 +84,7 @@ const Footer = (prop) => {
                     icon={'arrow'}
                     id={'newsLetterInput'}
                     value={email}
-                    placeholder={'Email'}
+                    placeholder={t('footer.emailPlaceholder')}
                     handleChange={(_, e) => setEmail(e)}
                   />
                 </form>
@@ -141,13 +139,13 @@ const Footer = (prop) => {
           <div className={styles.contentBottom}>
             <div className={styles.settings}>
               <Dropdown
-                label={'Country/Region'}
+                label={t('footer.countryRegion')}
                 optionList={Config.currencyList}
                 value={country}
                 onChange={(e) => setCountry(e.target.value)}
               />
               <Dropdown
-                label={'Language'}
+                label={t('footer.language')}
                 optionList={Config.languageList}
                 value={language}
                 onChange={(e) => setLanguage(e.target.value)}
