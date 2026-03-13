@@ -68,6 +68,12 @@ const translations = {
     'about.world.body3':
       "Book your session today and let's create something beautiful together.",
     'collection.more': 'more',
+    'attributes.commitment.title': '30 days commitment',
+    'attributes.commitment.subtitle': 'All photos are ready within 30 days',
+    'attributes.quality.title': 'Quality Guarantee',
+    'attributes.quality.subtitle': 'Refund if not satisfied (T&C apply)',
+    'attributes.payment.title': 'Secured payment',
+    'attributes.payment.subtitle': 'Shop safely',
   },
   german: {
     'header.banner': 'Kinder- und Babyfotostudio in Hongkong',
@@ -139,6 +145,12 @@ const translations = {
     'about.world.body3':
       'Buchen Sie noch heute Ihr Shooting und lassen Sie uns gemeinsam etwas Wunderschönes schaffen.',
     'collection.more': 'mehr',
+    'attributes.commitment.title': '30 Tage Zusage',
+    'attributes.commitment.subtitle': 'Alle Fotos sind innerhalb von 30 Tagen fertig',
+    'attributes.quality.title': 'Qualitätsgarantie',
+    'attributes.quality.subtitle': 'Rückerstattung, wenn nicht zufrieden (AGB gelten)',
+    'attributes.payment.title': 'Sichere Zahlung',
+    'attributes.payment.subtitle': 'Sicher einkaufen',
   },
   mandarin: {
     'header.banner': '香港儿童及婴儿摄影工作室',
@@ -207,6 +219,12 @@ const translations = {
     'about.world.body3':
       '现在就预约拍摄吧，让我们一起把这些美好的瞬间变成一辈子的珍藏。',
     'collection.more': '更多',
+    'attributes.commitment.title': '30天承诺',
+    'attributes.commitment.subtitle': '所有照片将在30天内完成',
+    'attributes.quality.title': '质量保证',
+    'attributes.quality.subtitle': '不满意可退款（条款适用）',
+    'attributes.payment.title': '安全支付',
+    'attributes.payment.subtitle': '放心购物',
   },
   traditionalchinese: {
     'header.banner': '香港兒童及嬰兒攝影工作室',
@@ -275,6 +293,12 @@ const translations = {
     'about.world.body3':
       '在 Kids U Baby Photography，我們不只是幫你拍一張照片——我們是你家庭故事的記錄者。立即預約拍攝，讓我們一起把這些美好的瞬間，變成你一輩子最珍貴的收藏。',
     'collection.more': '更多',
+    'attributes.commitment.title': '30天承諾',
+    'attributes.commitment.subtitle': '所有照片將於30天內完成',
+    'attributes.quality.title': '品質保證',
+    'attributes.quality.subtitle': '不滿意可退款（條款適用）',
+    'attributes.payment.title': '安全付款',
+    'attributes.payment.subtitle': '安心購物',
   },
 };
 

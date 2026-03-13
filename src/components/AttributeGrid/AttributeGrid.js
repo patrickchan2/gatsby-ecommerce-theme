@@ -1,26 +1,28 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import Attribute from '../Attribute';
+import { LanguageContext } from '../../context/LanguageContext';
 
 import * as styles from './AttributeGrid.module.css';
 
 const AttributeGrid = (props) => {
+  const { t } = useContext(LanguageContext);
   return (
     <div className={styles.root}>
       <Attribute
         icon={'delivery'}
-        title={'30 days commitment'}
-        subtitle={'All photos are ready within 30 days'}
+        title={t('attributes.commitment.title')}
+        subtitle={t('attributes.commitment.subtitle')}
       />
       <Attribute
         icon={'cycle'}
-        title={'Quality Guarantee'}
-        subtitle={'Refund if not satisfied (T&C apply)'}
+        title={t('attributes.quality.title')}
+        subtitle={t('attributes.quality.subtitle')}
       />
       <Attribute
         icon={'creditcard'}
-        title={'secured payment'}
-        subtitle={'Shop safely'}
+        title={t('attributes.payment.title')}
+        subtitle={t('attributes.payment.subtitle')}
       />
     </div>
   );
