@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import Button from '../Button';
 
 import FormInputField from '../FormInputField/FormInputField';
 
 import * as styles from './Contact.module.css';
+import { LanguageContext } from '../../context/LanguageContext';
 
 const Contact = (props) => {
+  const { t } = useContext(LanguageContext);
   const initialState = {
     name: '',
     phone: '',
@@ -28,25 +30,20 @@ const Contact = (props) => {
   return (
     <div className={styles.root}>
       <div className={styles.section}>
-        <h4>Send Us A Message</h4>
-        <p>
-          Our Customer Service team are here for all enquiries.
-        </p>
-        <p>We look forward to hearing from you.</p>
+        <h4>{t('contact.heading')}</h4>
+        <p>{t('contact.intro1')}</p>
+        <p>{t('contact.intro2')}</p>
       </div>
 
       <div className={styles.section}>
-        <h4>Phone</h4>
+        <h4>{t('contact.phone.title')}</h4>
         <p>+852 97258413</p>
-        <p>Monday to Sunday - 9am - 5pm</p>
+        <p>{t('contact.phone.hours')}</p>
       </div>
 
       <div className={styles.section}>
-        <h4>Email</h4>
-        <p>
-          You can email our Customer Service team at cs@kidsubaby.com
-          or via the contact form below:
-        </p>
+        <h4>{t('contact.email.title')}</h4>
+        <p>{t('contact.email.body')}</p>
       </div>
 
       <div className={styles.contactContainer}>
@@ -57,7 +54,7 @@ const Contact = (props) => {
               value={contactForm.name}
               handleChange={(id, e) => handleChange(id, e)}
               type={'text'}
-              labelName={'Full Name'}
+              labelName={t('contact.form.name')}
               required
             />
             <FormInputField
@@ -65,7 +62,7 @@ const Contact = (props) => {
               value={contactForm.phone}
               handleChange={(id, e) => handleChange(id, e)}
               type={'number'}
-              labelName={'Phone Number'}
+              labelName={t('contact.form.phone')}
               required
             />
             <FormInputField
@@ -73,7 +70,7 @@ const Contact = (props) => {
               value={contactForm.email}
               handleChange={(id, e) => handleChange(id, e)}
               type={'email'}
-              labelName={'Email'}
+              labelName={t('contact.form.email')}
               required
             />
             <div className={styles.commentInput}>
@@ -82,7 +79,7 @@ const Contact = (props) => {
                 value={contactForm.comment}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'textarea'}
-                labelName={'Comments / Questions'}
+                labelName={t('contact.form.comments')}
                 required
               />
             </div>
@@ -92,7 +89,7 @@ const Contact = (props) => {
             level={'primary'}
             type={'buttonSubmit'}
           >
-            submit
+            {t('contact.form.submit')}
           </Button>
         </form>
       </div>

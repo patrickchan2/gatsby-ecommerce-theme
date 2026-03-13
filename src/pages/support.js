@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { navigate } from 'gatsby';
 import * as styles from './support.module.css';
 
@@ -8,18 +8,20 @@ import Layout from '../components/Layout/Layout';
 import ThemeLink from '../components/ThemeLink';
 import Policy from '../components/Policy';
 import Container from '../components/Container';
+import { LanguageContext } from '../context/LanguageContext';
 
 const SupportPage = (props) => {
+  const { t } = useContext(LanguageContext);
   const subpages = [
-    { title: 'Terms & Conditions', key: 'terms' },
-    { title: 'Contact Us', key: 'contact' },
-    { title: 'Privacy Policy', key: 'policy' },
-    { title: 'Shipping', key: 'shipping' },
-    { title: 'Returns', key: 'returns' },
-    { title: 'Payments & Security', key: 'payments' },
+    { titleKey: 'support.terms', key: 'terms' },
+    { titleKey: 'support.contact', key: 'contact' },
+    { titleKey: 'support.privacy', key: 'policy' },
+    { titleKey: 'support.shipping', key: 'shipping' },
+    { titleKey: 'support.returns', key: 'returns' },
+    { titleKey: 'support.payments', key: 'payments' },
   ];
 
-  const [current, setCurrent] = useState(subpages[4]);
+  const [current, setCurrent] = useState(subpages[0]);
 
   const renderElement = (key) => {
     let tempElement = <React.Fragment />;
@@ -71,7 +73,7 @@ const SupportPage = (props) => {
       <div className={styles.root}>
         <Banner
           maxWidth={'650px'}
-          name={current.title}
+          name={t(current.titleKey)}
           bgImage={'/support.jpg'}
           color={'var(--standard-white)'}
           height={'350px'}
@@ -88,7 +90,7 @@ const SupportPage = (props) => {
                 isActive={current.key === details.key}
                 to={`/support#${details.key}`}
               >
-                {details.title}
+                {t(details.titleKey)}
               </ThemeLink>
             );
           })}

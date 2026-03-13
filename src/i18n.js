@@ -74,6 +74,45 @@ const translations = {
     'attributes.quality.subtitle': 'Refund if not satisfied (T&C apply)',
     'attributes.payment.title': 'Secured payment',
     'attributes.payment.subtitle': 'Shop safely',
+    'support.terms': 'Terms & Conditions',
+    'support.contact': 'Contact Us',
+    'support.privacy': 'Privacy Policy',
+    'support.shipping': 'Shipping',
+    'support.returns': 'Returns',
+    'support.payments': 'Payments & Security',
+    'policy.1.title': '1. Booking Confirmation',
+    'policy.1.body1':
+      'A booking is only confirmed upon our written confirmation of the session details and receipt of the required deposit. The deposit must be paid within 3 days of receiving our confirmation, or the booking will be released automatically.',
+    'policy.2.title': '2. Deposit & Payment',
+    'policy.2.body1':
+      'The deposit is strictly non-refundable under any circumstances, including booking cancellations. The remaining balance must be settled in full immediately upon completion of the photo session.',
+    'policy.3.title': '3. Rescheduling Policy',
+    'policy.3.body1':
+      'Each booking is entitled to one (1) complimentary reschedule, provided that a minimum of 3 days\' advance notice is given before the original booking date. Rescheduling requests made within 3 days of the session will not be eligible for the complimentary reschedule.',
+    'policy.3.body2':
+      'Please note that rescheduling due to Black Rainstorm Warning or Typhoon Signal No. 8 (or above) is handled separately and does not count toward your complimentary reschedule. In such cases, we will work with you to arrange an alternative date at no additional cost.',
+    'policy.4.title': '4. Session Overtime',
+    'policy.4.body1':
+      'Each session is booked for a fixed duration. Should the shoot exceed the agreed booking period, an additional charge of HK$350 per half hour (or part thereof) will apply and must be settled on the day of the session.',
+    'policy.5.title': '5. Use of Photos for Promotion',
+    'policy.5.body1':
+      'Kids U Baby Photography reserves the right to use session photos for marketing and promotional purposes, including but not limited to social media, website, and print materials. If you prefer your photos to remain private and not used for promotion, please notify us in writing at the time of your booking enquiry. We fully respect your privacy and will honor all such requests.',
+    'policy.6.title': '6. Satisfaction Guarantee',
+    'policy.6.body1':
+      'We are committed to delivering high-quality photos you\'ll love. In the unlikely event that you are not satisfied with the final images, a partial refund may be arranged after deducting applicable studio rental and administration fees. Refund requests must be raised within 3 days of receiving the final photos. Each case will be reviewed individually and fairly.',
+    'contact.heading': 'Send Us A Message',
+    'contact.intro1': 'Our Customer Service team are here for all enquiries.',
+    'contact.intro2': 'We look forward to hearing from you.',
+    'contact.phone.title': 'Phone',
+    'contact.phone.hours': 'Monday to Sunday - 9am - 5pm',
+    'contact.email.title': 'Email',
+    'contact.email.body':
+      'You can email our Customer Service team at cs@kidsubaby.com or via the contact form below:',
+    'contact.form.name': 'Full Name',
+    'contact.form.phone': 'Phone Number',
+    'contact.form.email': 'Email',
+    'contact.form.comments': 'Comments / Questions',
+    'contact.form.submit': 'submit',
   },
   german: {
     'header.banner': 'Kinder- und Babyfotostudio in Hongkong',
@@ -151,6 +190,46 @@ const translations = {
     'attributes.quality.subtitle': 'Rückerstattung, wenn nicht zufrieden (AGB gelten)',
     'attributes.payment.title': 'Sichere Zahlung',
     'attributes.payment.subtitle': 'Sicher einkaufen',
+    'support.terms': 'AGB',
+    'support.contact': 'Kontakt',
+    'support.privacy': 'Datenschutzerklärung',
+    'support.shipping': 'Versand',
+    'support.returns': 'Rückgabe',
+    'support.payments': 'Zahlung & Sicherheit',
+    'policy.1.title': '1. Buchungsbestätigung',
+    'policy.1.body1':
+      'Eine Buchung gilt erst dann als bestätigt, wenn wir die Sitzungsdetails schriftlich bestätigt und die erforderliche Anzahlung erhalten haben. Die Anzahlung muss innerhalb von 3 Tagen nach unserer Bestätigung eingehen, andernfalls wird der Termin automatisch freigegeben.',
+    'policy.2.title': '2. Anzahlung & Zahlung',
+    'policy.2.body1':
+      'Die Anzahlung ist unter keinen Umständen rückerstattbar, auch nicht bei Stornierung. Der Restbetrag ist unmittelbar nach Abschluss des Fotoshootings vollständig zu begleichen.',
+    'policy.3.title': '3. Umbuchungsrichtlinie',
+    'policy.3.body1':
+      'Für jede Buchung ist eine (1) kostenlose Umbuchung möglich, sofern uns mindestens 3 Tage vor dem ursprünglichen Termin Bescheid gegeben wird. Umbuchungsanfragen, die weniger als 3 Tage vor dem Termin eingehen, sind nicht für die kostenlose Umbuchung berechtigt.',
+    'policy.3.body2':
+      'Umbuchungen aufgrund einer Schwarzer-Regensturm-Warnung oder eines Taifunsignals Nr. 8 (oder höher) werden gesondert behandelt und zählen nicht als Ihre kostenlose Umbuchung. In solchen Fällen vereinbaren wir kostenfrei einen alternativen Termin mit Ihnen.',
+    'policy.4.title': '4. Überziehung der Sitzungszeit',
+    'policy.4.body1':
+      'Jede Sitzung ist für eine feste Dauer gebucht. Sollte das Shooting die vereinbarte Zeit überschreiten, fällt eine zusätzliche Gebühr von 350 HK$ pro angefangener halben Stunde an. Diese ist am Tag des Shootings zu bezahlen.',
+    'policy.5.title': '5. Nutzung der Fotos zu Werbezwecken',
+    'policy.5.body1':
+      'Kids U Baby Photography behält sich das Recht vor, die während der Sitzung entstandenen Fotos zu Marketing- und Promotionszwecken zu nutzen, einschließlich, aber nicht beschränkt auf Social Media, Website und Druckmaterialien. Wenn Sie wünschen, dass Ihre Fotos nicht zu Werbezwecken verwendet werden, informieren Sie uns bitte schriftlich bereits bei der Buchungsanfrage. Wir respektieren Ihre Privatsphäre und kommen solchen Wünschen selbstverständlich nach.',
+    'policy.6.title': '6. Zufriedenheitsgarantie',
+    'policy.6.body1':
+      'Wir sind bestrebt, hochwertige Fotos zu liefern, die Sie lieben werden. Sollten Sie ausnahmsweise mit den finalen Bildern nicht zufrieden sein, kann nach Abzug der Studio- und Administrationskosten eine teilweise Rückerstattung angeboten werden. Rückerstattungsanfragen müssen innerhalb von 3 Tagen nach Erhalt der finalen Fotos gestellt werden. Jeder Fall wird individuell und fair geprüft.',
+    'contact.heading': 'Schreiben Sie uns eine Nachricht',
+    'contact.intro1':
+      'Unser Kundenservice-Team ist für alle Ihre Anfragen für Sie da.',
+    'contact.intro2': 'Wir freuen uns, von Ihnen zu hören.',
+    'contact.phone.title': 'Telefon',
+    'contact.phone.hours': 'Montag bis Sonntag – 9:00 bis 17:00 Uhr',
+    'contact.email.title': 'E-Mail',
+    'contact.email.body':
+      'Sie können unser Kundenservice-Team unter cs@kidsubaby.com oder über das untenstehende Kontaktformular erreichen:',
+    'contact.form.name': 'Vollständiger Name',
+    'contact.form.phone': 'Telefonnummer',
+    'contact.form.email': 'E-Mail-Adresse',
+    'contact.form.comments': 'Kommentare / Fragen',
+    'contact.form.submit': 'Senden',
   },
   mandarin: {
     'header.banner': '香港儿童及婴儿摄影工作室',
@@ -225,6 +304,45 @@ const translations = {
     'attributes.quality.subtitle': '不满意可退款（条款适用）',
     'attributes.payment.title': '安全支付',
     'attributes.payment.subtitle': '放心购物',
+    'support.terms': '条款及细则',
+    'support.contact': '联系我们',
+    'support.privacy': '私隐政策',
+    'support.shipping': '运送安排',
+    'support.returns': '退换安排',
+    'support.payments': '付款及安全',
+    'policy.1.title': '1. 预订确认',
+    'policy.1.body1':
+      '当我们以书面形式确认拍摄细节并收到所需订金后，预订方视为正式确认。订金需在收到确认通知后的 3 日内支付，否则预订将自动释放。',
+    'policy.2.title': '2. 订金及付款',
+    'policy.2.body1':
+      '订金在任何情况下均不予退还，包括客户取消预订。拍摄完成后，余款必须于当天即时全数结清。',
+    'policy.3.title': '3. 改期安排',
+    'policy.3.body1':
+      '每个预订可享有一次免费改期，惟必须在原定拍摄日期最少 3 日前提出申请。若在拍摄日前 3 日内提出改期，将不符合免费改期之安排。',
+    'policy.3.body2':
+      '因黑色暴雨警告或 8 号或以上台风信号而需要改期之个案，属特别情况处理，并不会计入以上免费改期次数。我们会与您另行安排合适日期，毋须额外收费。',
+    'policy.4.title': '4. 拍摄时间超时',
+    'policy.4.body1':
+      '每次拍摄均设有预定时长。如拍摄时间超出原定安排，每逾半小时（或不足半小时的一部分）将额外收取港币 350 元，并须于拍摄当日即时缴付。',
+    'policy.5.title': '5. 相片宣传及使用',
+    'policy.5.body1':
+      'Kids U Baby Photography 有权使用拍摄相片作宣传及推广用途，包括但不限于社交媒体、网站及印刷宣传品。如您希望相片只供私人保存而不作任何宣传用途，请于查询及预订时以书面方式提出，我们将完全尊重并遵从您的要求。',
+    'policy.6.title': '6. 满意保证',
+    'policy.6.body1':
+      '我们致力为您提供优质且令人满意的作品。如您对最终相片成品感到不满意，可在扣除场地及相关行政费用后，按情况酌情安排部分退款。退款申请必须在收到最终相片后的 3 日内提出，每个个案将以公平、认真的态度作个别处理。',
+    'contact.heading': '给我们留言',
+    'contact.intro1': '我们的客户服务团队随时为您解答任何查询。',
+    'contact.intro2': '期待收到您的来信。',
+    'contact.phone.title': '电话',
+    'contact.phone.hours': '星期一至星期日：早上 9 点至下午 5 点',
+    'contact.email.title': '电子邮箱',
+    'contact.email.body':
+      '您可以发送电邮至 cs@kidsubaby.com，或通过以下联系表格与我们的客户服务团队联络：',
+    'contact.form.name': '姓名',
+    'contact.form.phone': '电话号码',
+    'contact.form.email': '电子邮箱',
+    'contact.form.comments': '留言 / 查询内容',
+    'contact.form.submit': '提交',
   },
   traditionalchinese: {
     'header.banner': '香港兒童及嬰兒攝影工作室',
@@ -299,6 +417,45 @@ const translations = {
     'attributes.quality.subtitle': '不滿意可退款（條款適用）',
     'attributes.payment.title': '安全付款',
     'attributes.payment.subtitle': '安心購物',
+    'support.terms': '條款及細則',
+    'support.contact': '聯絡我們',
+    'support.privacy': '私隱政策',
+    'support.shipping': '送遞安排',
+    'support.returns': '更換及退貨',
+    'support.payments': '付款及安全',
+    'policy.1.title': '1. 預約確認',
+    'policy.1.body1':
+      '當我們以書面確認拍攝細節並收到所需訂金後，預約方視為正式生效。訂金必須於收到確認通知後 3 日內繳付，否則預約名額將自動釋出。',
+    'policy.2.title': '2. 訂金及付款',
+    'policy.2.body1':
+      '訂金在任何情況下均不設退還，包括客人主動取消預約。拍攝完成後，餘額必須於同日即時全數繳清。',
+    'policy.3.title': '3. 改期安排',
+    'policy.3.body1':
+      '每個預約可享有一次免費改期，惟需於原定拍攝日期最少 3 日前提出。於拍攝日前 3 日內提出之改期申請，將不符合免費改期之資格。',
+    'policy.3.body2':
+      '如因黑色暴雨警告或 8 號或以上颱風信號而需要改期，將作特別個案處理，不計入上述免費改期次數。我們會與您另行安排合適拍攝日期，並不另收手續費。',
+    'policy.4.title': '4. 拍攝時間超時',
+    'policy.4.body1':
+      '每節拍攝均設有預定時長。如拍攝時間超出原先安排，每逾半小時（或不足半小時的一部分）將額外收取港幣 350 元，並須於拍攝當日即時繳付。',
+    'policy.5.title': '5. 相片宣傳及使用',
+    'policy.5.body1':
+      'Kids U Baby Photography 保留將拍攝相片用作宣傳及推廣之權利，包括但不限於社交媒體、網站及印刷宣傳品。如您希望相片只作私人保存而不作任何公開宣傳用途，請於查詢或預約階段以書面通知，我們會完全尊重並遵從您的意願。',
+    'policy.6.title': '6. 滿意保證',
+    'policy.6.body1':
+      '我們致力為每個家庭提供高質素且感動人心的相片作品。若您對最終成品感到不滿意，可在扣除場地租金及相關行政成本後，按個別情況考慮提供部分退款。退款申請必須於收到最終相片後 3 日內提出，每宗個案將以謹慎及公平的原則作個別跟進。',
+    'contact.heading': '歡迎與我們聯絡',
+    'contact.intro1': '我們的客戶服務團隊樂意為您解答任何查詢。',
+    'contact.intro2': '期待收到您的消息。',
+    'contact.phone.title': '電話',
+    'contact.phone.hours': '星期一至星期日：早上 9 時至下午 5 時',
+    'contact.email.title': '電郵',
+    'contact.email.body':
+      '您可以電郵至 cs@kidsubaby.com，或透過下方的聯絡表格與我們的客戶服務團隊聯絡：',
+    'contact.form.name': '姓名',
+    'contact.form.phone': '電話號碼',
+    'contact.form.email': '電郵地址',
+    'contact.form.comments': '備註 / 查詢內容',
+    'contact.form.submit': '送出',
   },
 };
 
