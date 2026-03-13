@@ -50,7 +50,7 @@ const AboutPage = (props) => {
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
-            <p className={styles.introText}>{t('about.intro')}</p>
+            <p>{t('about.intro')}</p>
             <br />
             <br />
           </div>

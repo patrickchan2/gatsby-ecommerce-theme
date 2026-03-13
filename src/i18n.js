@@ -67,6 +67,7 @@ const translations = {
       "At Kids U Baby Photography, we're not just photographers — we're parents who truly get it. If you're looking for a professional kids and family photographer in Hong Kong who will treat your family with heart, we'd love to be part of your story.",
     'about.world.body3':
       "Book your session today and let's create something beautiful together.",
+    'collection.more': 'more',
   },
   german: {
     'header.banner': 'Kinder- und Babyfotostudio in Hongkong',
@@ -137,6 +138,7 @@ const translations = {
       'Bei Kids U Baby Photography sind wir nicht nur Fotografen – wir sind Eltern, die wirklich verstehen, was Familien wichtig ist. Wenn Sie einen professionellen Kinder- und Familienfotografen in Hongkong suchen, der Ihre Familie mit Herz begleitet, freuen wir uns, Teil Ihrer Geschichte zu werden.',
     'about.world.body3':
       'Buchen Sie noch heute Ihr Shooting und lassen Sie uns gemeinsam etwas Wunderschönes schaffen.',
+    'collection.more': 'mehr',
   },
   mandarin: {
     'header.banner': '香港儿童及婴儿摄影工作室',
@@ -144,7 +146,7 @@ const translations = {
     'menu.theme': '主题',
     'menu.boy': '男孩',
     'menu.girl': '女孩',
-    'menu.cakeSmash': '抓周',
+    'menu.cakeSmash': 'Cake Smash',
     'menu.allThemes': '所有主题',
     'menu.character': '角色',
     'menu.grand': '盛装',
@@ -204,6 +206,7 @@ const translations = {
       '在 Kids U Baby Photography，我们不仅是摄影师，更是深刻理解父母心情的家长。如果您正在寻找一位真正用心、专业又温暖的香港儿童及家庭摄影师，我们非常乐意成为您故事的一部分。',
     'about.world.body3':
       '现在就预约拍摄吧，让我们一起把这些美好的瞬间变成一辈子的珍藏。',
+    'collection.more': '更多',
   },
   traditionalchinese: {
     'header.banner': '香港兒童及嬰兒攝影工作室',
@@ -211,7 +214,7 @@ const translations = {
     'menu.theme': '主題',
     'menu.boy': '男孩',
     'menu.girl': '女孩',
-    'menu.cakeSmash': '抓周',
+    'menu.cakeSmash': 'Cake Smash',
     'menu.allThemes': '所有主題',
     'menu.character': '角色',
     'menu.grand': '盛裝',
@@ -260,17 +263,18 @@ const translations = {
     'about.nav.values': '我們的價值',
     'about.nav.vision': '我們的空間',
     'about.intro':
-      '歡迎來到 Kids U Baby Photography —— 一家位於香港的家庭式攝影工作室，自 2019 年起專注於新生兒、寶寶、兒童及家庭人像攝影。',
-    'about.values.title': '我們的價值',
+      'Kids U Baby Photography，一家紮根香港的家庭式攝影工作室。自 2019 年創立至今，我們專注於新生兒攝影、寶寶攝影、兒童攝影及家庭人像攝影，陪伴超過 400 個香港家庭，把孩子成長中每一個珍貴瞬間，變成一輩子都捨不得忘記的畫面。',
+    'about.values.title': '明白父母的心情，因為我們也是父母',
     'about.values.body':
-      '多年來，我們有幸陪伴超過 400 個家庭，一同記錄寶寶從出生最初的日子到成長過程中的重要時刻。每一張作品，都是我們對品質、用心與細節的堅持，也是對您家庭故事的尊重。為人父母，更明白孩子成長得有多快、這些片刻有多珍貴。因此，每一次拍攝，我們都以耐心、親和與理解來面對每一位小朋友，讓他們在輕鬆自在的氛圍中展現最真實的一面——沒有強顏笑容，放開緊張的情緒，只有自然、動人的畫面。',
-    'about.world.title': '我們的空間',
+      '孩子長得真的很快——快到你有時來不及好好看清楚。我們創辦這個工作室，正是因為自己也走過這一段路，深深明白那種「想把這一刻留住」的感受。每一次拍攝，我們都不趕時間。我們用耐心和溫度陪伴每一位小朋友，讓他們在輕鬆自在的氛圍中展現最真實的笑容——不勉強、不緊張，只有最自然、最動人的一面。這，就是我們對每一個家庭的承諾。',
+    'about.world.title': '舒適安心的香港攝影環境',
     'about.world.body1':
       '我們的影樓位於甲級商廈內，提供了一個安靜、整潔舒適環境，是一個讓家長與小朋友都能安心放鬆的地方。我們用心打造安全、舒適且設備齊全的環境，只希望您能輕鬆享受拍攝時光，把一切交給我們。',
     'about.world.body2':
-      '在 Kids U Baby Photography，我們不只是攝影師，更是深刻理解父母心情的家長。如果您正在尋找一位真正用心、專業又溫暖的香港兒童及家庭攝影師，我們非常樂意成為您故事的一部分。',
+      '我們的影樓位於甲級商廈內，安靜、整潔、設備齊全。我們盡力讓爸爸媽媽和寶寶都能全程放鬆，專心享受拍攝的美好時光。',
     'about.world.body3':
-      '現在就預約拍攝吧，讓我們一起把這些美好的瞬間變成一輩子的珍藏。',
+      '在 Kids U Baby Photography，我們不只是幫你拍一張照片——我們是你家庭故事的記錄者。立即預約拍攝，讓我們一起把這些美好的瞬間，變成你一輩子最珍貴的收藏。',
+    'collection.more': '更多',
   },
 };
 
