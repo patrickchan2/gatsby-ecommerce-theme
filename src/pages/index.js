@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useContext } from 'react';
 
 import AttributeGrid from '../components/AttributeGrid';
 import Container from '../components/Container';
@@ -16,8 +17,10 @@ import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 import * as styles from './index.module.css';
 import { Link, navigate } from 'gatsby';
 import { toOptimizedImage } from '../helpers/general';
+import { LanguageContext } from '../context/LanguageContext';
 
 const IndexPage = () => {
+  const { t } = useContext(LanguageContext);
   const newArrivals = generateMockProductData(3, 'new');
   const blogData = generateMockBlogData(3);
 
@@ -31,9 +34,9 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.jpg'}
-        title={'Capture the bloosoming moments'}
-        subtitle={'Discover Spring New Themes 2026'}
-        ctaText={'book now'}
+        title={t('home.hero.title')}
+        subtitle={t('home.hero.subtitle')}
+        ctaText={t('home.hero.cta')}
         ctaAction={goToShop}
       />
 
@@ -52,7 +55,7 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'Baby Themes'} />
+          <Title name={t('home.collection.babyThemes')} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -60,7 +63,11 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'Hotest Themes'} link={'/new'} textLink={'view all'} />
+          <Title
+            name={t('home.newArrivals.title')}
+            link={'/new'}
+            textLink={t('home.newArrivals.viewAll')}
+          />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -80,9 +87,9 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.jpg'}
             miniImageAlt={'mini highlight image'}
-            title={'Special Theme'}
-            description={`This theme is designed to capture the essence of childhood joy and innocence. With vibrant colors, playful patterns, and whimsical elements, it creates a fun and engaging environment for kids to explore and enjoy.`}
-            textLink={'book now'}
+            title={t('home.highlight.title')}
+            description={t('home.highlight.description')}
+            textLink={t('home.highlight.cta')}
             link={'/enquiry'}
           />
         </Container>
@@ -90,26 +97,32 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.jpg')} title={`-10% off \n Early Bird book in Easter Holiday`} />
+        <Hero
+          image={toOptimizedImage('/banner2.jpg')}
+          title={t('home.promo.banner')}
+        />
         <div className={styles.linkContainers}>
-          <Link to={'/girl'}>Girl</Link>
-          <Link to={'/boy'}>Boy</Link>
+          <Link to={'/girl'}>{t('home.promo.girl')}</Link>
+          <Link to={'/boy'}>{t('home.promo.boy')}</Link>
         </div>
       </div>
 
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Kidsubaby'}
+        title={t('home.quote.title')}
         quote={
-          '“We believe in creating magical moments for children, where every detail is thoughtfully designed to bring joy and comfort.”'
+          t('home.quote.text')
         }
       />
 
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Review'} subtitle={'Feedback on facebook and instagram'} />
+          <Title
+            name={t('home.reviews.title')}
+            subtitle={t('home.reviews.subtitle')}
+          />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div>
@@ -118,11 +131,9 @@ const IndexPage = () => {
       <div className={styles.sustainableContainer}>
         <Hero
           image={toOptimizedImage('/banner3.jpg')}
-          title={'Customisable Themes'}
-          subtitle={
-            'Your idea can be brought to life with our customisable themes.'
-          }
-          ctaText={'read more'}
+          title={t('home.custom.title')}
+          subtitle={t('home.custom.subtitle')}
+          ctaText={t('home.custom.cta')}
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />
@@ -131,8 +142,8 @@ const IndexPage = () => {
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Magic Moments'}
-          subtitle={'Tag @kidsubaby to be featured.'}
+          name={t('home.social.title')}
+          subtitle={t('home.social.subtitle')}
         />
         <div className={styles.socialContentGrid}>
           <img src={toOptimizedImage(`/social/socialMedia1.jpg`)} alt={'social media 1'} />

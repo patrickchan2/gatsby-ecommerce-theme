@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useContext } from 'react';
 
 import Container from '../components/Container';
 import Hero from '../components/Hero';
@@ -6,8 +6,10 @@ import ThemeLink from '../components/ThemeLink';
 import Layout from '../components/Layout/Layout';
 
 import * as styles from './about.module.css';
+import { LanguageContext } from '../context/LanguageContext';
 import { toOptimizedImage } from '../helpers/general';
 const AboutPage = (props) => {
+  const { t } = useContext(LanguageContext);
   let historyRef = useRef();
   let valuesRef = useRef();
   let sustainabilityRef = useRef();
@@ -28,32 +30,29 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.jpg'}
-          title={`Kidsbaby \n A HK photography studio since 2019`}
+          title={t('about.hero.title')}
         />
 
         <div className={styles.navContainer}>
           <ThemeLink onClick={() => handleScroll(historyRef)} to={'#history'}>
-            History
+            {t('about.nav.history')}
           </ThemeLink>
           <ThemeLink onClick={() => handleScroll(valuesRef)} to={'#values'}>
-            Values
+            {t('about.nav.values')}
           </ThemeLink>
           <ThemeLink
             onClick={() => handleScroll(sustainabilityRef)}
             to={'#sustainability'}
           >
-            Sustainability
+            {t('about.nav.vision')}
           </ThemeLink>
         </div>
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
-            <p>
-            Welcome to Kids U Baby Photography — a family-owned portrait studio based in Hong Kong, specializing in newborn, baby, kids, and family photography since 2019.
-            </p>
+            <p>{t('about.intro')}</p>
             <br />
             <br />
-           
           </div>
         </Container>
 
@@ -63,28 +62,17 @@ const AboutPage = (props) => {
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.content}>
-            <h3>Our Values</h3>
+            <h3>{t('about.values.title')}</h3>
             <div ref={valuesRef}>
-              <p>
-              Over the years, we've had the joy of working with over 400 families, capturing precious milestones from a baby's very first days to growing family portraits. Every photo we deliver is a reflection of our commitment to quality, care, and the little details that make your family uniquely yours. We started this studio as parents ourselves — and that changes everything. Knowing firsthand how quickly children grow and how fleeting these moments are, we approach every session with patience, genuine warmth, and a real understanding of how kids behave. We know how to make children feel comfortable and relaxed, so their true personality naturally shines through in every shot. No forced smiles. No stressful sessions. Just real, beautiful moments.
-
-              </p>
+              <p>{t('about.values.body')}</p>
               
               <img alt={'founder'} src={toOptimizedImage('/about2.jpg')}></img>
             </div>
-            <h3>Sustainability</h3>
+            <h3>{t('about.world.title')}</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
-              <p>
-              Our studio is housed in a Grade A commercial building, offering a quiet, clean, and cozy environment that parents and little ones alike feel at home in. We've carefully designed the space to be safe, comfortable, and fully equipped — so you can focus on enjoying the experience while we take care of everything else.
-
-              </p>
-              <p>
-              At Kids U Baby Photography, we're not just photographers — we're parents who truly get it. If you're looking for a professional kids and family photographer in Hong Kong who will treat your family with heart, we'd love to be part of your story.
-
-              </p>
-              <p>
-              Book your session today and let's create something beautiful together.
-              </p>
+              <p>{t('about.world.body1')}</p>
+              <p>{t('about.world.body2')}</p>
+              <p>{t('about.world.body3')}</p>
             </div>
           </div>
         </Container>

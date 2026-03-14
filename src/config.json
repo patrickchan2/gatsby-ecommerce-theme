@@ -9,7 +9,8 @@
   "languageList": [
     { "value": "english", "label": "English" },
     { "value": "german", "label": "Deutsch" },
-    { "value": "mandarin", "label": "普通话" }
+    { "value": "mandarin", "label": "簡中" },
+    { "value": "traditionalchinese", "label": "綮中" }
   ],
   "social": {
     "facebook": "https://www.facebook.com/kidsubabyphoto/",
@@ -24,93 +25,92 @@
   },
   "footerLinks": [
     {
-      "subTitle": "Info",
+      "subTitle": "footer.info",
       "links": [
         {
-          "text": "About Us",
+          "text": "footer.aboutUs",
           "link": "/about"
         },
         {
-          "text": "Journal",
+          "text": "footer.journal",
           "link": "/blog"
         },
         {
-          "text": "Terms and Conditions",
+          "text": "footer.terms",
           "link": "/support#policy"
         }
       ]
     },
     {
-      "subTitle": "Support",
+      "subTitle": "footer.support",
       "links": [
         {
-          "text": "FAQ",
+          "text": "footer.faq",
           "link": "/faq"
         },
         {
-          "text": "Contact Us",
+          "text": "footer.contact",
           "link": "/support#contact"
         }
-
       ]
     }
   ],
   "headerLinks": [
     {
-      "menuLabel": "Theme",
+      "menuLabel": "menu.theme",
       "menuLink": "/boy",
       "category": [
         {
-          "categoryLabel": "boy",
+          "categoryLabel": "menu.boy",
           "submenu": [
             {
-              "menuLabel": "All themes",
+              "menuLabel": "menu.allThemes",
               "menuLink": "/boy"
             },
             {
-              "menuLabel": "character",
+              "menuLabel": "menu.character",
               "menuLink": "/boy"
             },
             {
-              "menuLabel": "grand",
+              "menuLabel": "menu.grand",
               "menuLink": "/boy"
             },
             {
-              "menuLabel": "seasonal",
+              "menuLabel": "menu.seasonal",
               "menuLink": "/boy"
             }
           ]
         },
         {
-          "categoryLabel": "girl",
+          "categoryLabel": "menu.girl",
           "submenu": [
             {
-              "menuLabel": "All themes",
+              "menuLabel": "menu.allThemes",
               "menuLink": "/girl"
             },
             {
-              "menuLabel": "character",
+              "menuLabel": "menu.character",
               "menuLink": "/girl"
             },
             {
-              "menuLabel": "grand",
+              "menuLabel": "menu.grand",
               "menuLink": "/girl"
             },
             {
-              "menuLabel": "seasonal",
+              "menuLabel": "menu.seasonal",
               "menuLink": "/girl"
             }
           ]
         },
         {
-          "categoryLabel": "cake smash",
+          "categoryLabel": "menu.cakeSmash",
           "submenu": [
             {
-              "menuLabel": "special theme",
+              "menuLabel": "menu.specialTheme",
               "menuLink": "/cakesmash"
             },
             {
-              "menuLabel": "classic theme",
+              "menuLabel": "menu.classicTheme",
               "menuLink": "/cakesmash"
             }
           ]
@@ -118,12 +118,12 @@
       ]
     },
     {
-      "menuLabel": "Blog",
+      "menuLabel": "menu.blog",
       "menuLink": "/blog",
       "category": null
     },
     {
-      "menuLabel": "About",
+      "menuLabel": "menu.about",
       "menuLink": "/about",
       "category": null
     }
