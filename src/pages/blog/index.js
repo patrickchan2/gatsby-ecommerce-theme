@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { navigate } from 'gatsby';
 
 import BlogPreviewGrid from '../../components/BlogPreviewGrid';
@@ -12,7 +12,11 @@ import * as styles from './index.module.css';
 import { toOptimizedImage } from '../../helpers/general';
 
 const BlogPage = (props) => {
+  const [category, setCategory] = useState(null);
   const blogData = generateMockBlogData(6);
+  const filteredBlogData = category
+    ? blogData.filter((blog) => blog.category === category)
+    : blogData;
 
   return (
     <Layout disablePaddingBottom>
@@ -28,8 +32,8 @@ const BlogPage = (props) => {
 
         <div className={styles.navContainer}>
           <ThemeLink
-            onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
-            to={'https://www.facebook.com/kidsubabyphoto'}
+            onClick={() => setCategory(null)}
+            to={'/blog'}
           >
             All Posts
           </ThemeLink>
@@ -46,10 +50,10 @@ const BlogPage = (props) => {
             Collaboration
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
-            to={'https://www.facebook.com/kidsubabyphoto'}
+            onClick={() => setCategory('review')}
+            to={'/blog'}
           >
-            Interview
+            Review
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
@@ -62,7 +66,11 @@ const BlogPage = (props) => {
         {/* Blog Grid */}
         <div className={styles.blogsContainer}>
           <Container size={'large'}>
-            <BlogPreviewGrid data={blogData} hideReadMoreOnWeb showExcerpt />
+            <BlogPreviewGrid
+              data={filteredBlogData}
+              hideReadMoreOnWeb
+              showExcerpt
+            />
           </Container>
         </div>
       </div>
