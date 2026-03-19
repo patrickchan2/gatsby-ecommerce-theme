@@ -41,10 +41,11 @@ const BestTimeOfPhotoshootPage = (props) => {
                   collection of images you'll treasure forever.
                 </p>
                 <p className={styles.blogParagraph}>
-                  At Little Moments Studio, we've photographed hundreds of babies
+                  At Kids U Baby Photography Studio, we've photographed hundreds of babies
                   in this age window, and we've learned exactly when the magic
                   happens — and why.
                 </p>
+                <br />
                 <h2 className={styles.blogSubHeader}>
                   Step 1 — The Night Before
                 </h2>
@@ -71,7 +72,7 @@ const BestTimeOfPhotoshootPage = (props) => {
                   poorly, and be irritable the next day. Early to bed truly means
                   happy and bright in the morning.
                 </p>
-
+                <br />
                 <h2 className={styles.blogSubHeader}>
                   Step 2 — Morning of the Shoot
                 </h2>
@@ -99,7 +100,7 @@ const BestTimeOfPhotoshootPage = (props) => {
                   high enough for energy and mood, low enough to keep them alert
                   and interactive.
                 </p>
-
+                <br />
                 <h2 className={styles.blogSubHeader}>
                   Step 3 — 1 Hour Before Arrival
                 </h2>
