@@ -7,13 +7,12 @@ import Hero from '../../components/Hero';
 import Layout from '../../components/Layout/Layout';
 import ThemeLink from '../../components/ThemeLink';
 
-import { generateMockBlogData } from '../../helpers/mock';
+import blogData from '../../helpers/blog.json';
 import * as styles from './index.module.css';
 import { toOptimizedImage } from '../../helpers/general';
 
 const BlogPage = (props) => {
   const [category, setCategory] = useState(null);
-  const blogData = generateMockBlogData(6);
   const filteredBlogData = category
     ? blogData.filter((blog) => blog.category === category)
     : blogData;
@@ -38,10 +37,10 @@ const BlogPage = (props) => {
             All Posts
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
-            to={'https://www.facebook.com/kidsubabyphoto'}
+            onClick={() => setCategory('tips')}
+            to={'/blog'}
           >
-            Design
+            Tips
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}

@@ -10,7 +10,7 @@
     { "value": "english", "label": "English" },
     { "value": "german", "label": "Deutsch" },
     { "value": "mandarin", "label": "簡中" },
-    { "value": "traditionalchinese", "label": "綮中" }
+    { "value": "traditionalchinese", "label": "繁中" }
   ],
   "social": {
     "facebook": "https://www.facebook.com/kidsubabyphoto/",
