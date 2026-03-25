@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { navigate } from 'gatsby';
+import { LanguageContext } from '../../context/LanguageContext';
 
 import BlogPreviewGrid from '../../components/BlogPreviewGrid';
 import Container from '../../components/Container';
@@ -12,6 +13,7 @@ import * as styles from './index.module.css';
 import { toOptimizedImage } from '../../helpers/general';
 
 const BlogPage = (props) => {
+  const { t } = useContext(LanguageContext);
   const [category, setCategory] = useState(null);
   const filteredBlogData = category
     ? blogData.filter((blog) => blog.category === category)
@@ -34,31 +36,31 @@ const BlogPage = (props) => {
             onClick={() => setCategory(null)}
             to={'/blog'}
           >
-            All Posts
+            {t('blog.allPosts')}
           </ThemeLink>
           <ThemeLink
             onClick={() => setCategory('tips')}
             to={'/blog'}
           >
-            Tips
+            {t('blog.category.tips')}
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
             to={'https://www.facebook.com/kidsubabyphoto'}
           >
-            Collaboration
+            {t('blog.collaboration')}
           </ThemeLink>
           <ThemeLink
             onClick={() => setCategory('review')}
             to={'/blog'}
           >
-            Review
+            {t('blog.category.review')}
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('https://www.facebook.com/kidsubabyphoto')}
             to={'https://www.facebook.com/kidsubabyphoto'}
           >
-            News
+            {t('blog.category.news')}
           </ThemeLink>
         </div>
 

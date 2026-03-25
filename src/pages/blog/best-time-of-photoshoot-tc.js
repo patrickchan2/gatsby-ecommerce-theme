@@ -85,7 +85,7 @@ const BestTimeOfPhotoshootPageTC = (props) => {
                 </ul>
 
                 <h2 className={styles.blogSubHeader}>
-                  科學原理：點解朝早 11 點係黃金時間？
+                  科學法則：點解朝早 11 點係黃金時間？
                 </h2>
                 <p className={styles.blogParagraph}>
                   呢個唔係靠估，係有根據㗎。當 BB 喺朝早 7:30–8:00 左右醒，大約 10:45 嚟到 Studio 準備 11:00 影相，佢哋剛好醒咗 3 個鐘。呢個時候 BB 嘅皮質醇（警覺性）最高，血糖又穩定，係最精靈、最肯同人玩嘅時間！
