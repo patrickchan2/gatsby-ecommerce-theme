@@ -5,7 +5,13 @@ import blogJson from './blog.json';
 */
 function generateMockProductData(count, tag) {
   const products = productJson;
-  const filtered = products.filter((item) => item.tags.includes(tag));
+  const filtered = products
+    .filter((item) => item.tags.includes(tag))
+    .map((item) => ({
+      ...item,
+      link: item.link || item.image || '/product/sample',
+    }));
+
   return filtered.slice(0, count);
 }
 

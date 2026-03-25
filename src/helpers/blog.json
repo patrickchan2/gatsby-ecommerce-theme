@@ -1,26 +1,88 @@
 [
     {
         "title": "由大肚嗰陣已經睇中咗Kids U嘅作品..",
-        "category": "facebook",
+        "titleI18n": {
+            "english": "I already loved Kids U Baby's work when I was pregnant..",
+            "german": "Ich liebte die Arbeit von Kids U Baby schon während der Schwangerschaft..",
+            "mandarin": "由大肚时就已经看中了 Kids U Baby 的作品..",
+            "traditionalchinese": "由大肚時就已經看中了 Kids U Baby 的作品.."
+        },
+        "category": "review",
         "alt": "blog new standard of closing",
         "image": "/blogs/blog1.jpg",
         "link": "https://www.facebook.com/kidsubabyphoto/reviews",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "excerpt": "see facebook for more details.",
+        "excerptI18n": {
+            "english": "See Facebook for more details.",
+            "german": "Siehe Facebook für weitere Details.",
+            "mandarin": "请查看 Facebook 获取更多信息。",
+            "traditionalchinese": "請查看 Facebook 獲取更多資訊。"
+        }
     },
     {
         "title": "因為見到朋友既小朋友係Kids U Baby Photography影相影得好靚,所以帶仔仔黎影相..",
-        "category": "facebook",
+        "titleI18n": {
+            "english": "Because I saw my friend's child had great photos at Kids U Baby Photography, I brought my son too..",
+            "german": "Weil ich gesehen habe, dass das Foto meines Freundes bei Kids U Baby Photography toll geworden ist, habe ich meinen Sohn mitgebracht..",
+            "mandarin": "因为看到朋友的孩子在 Kids U Baby Photography 拍得很漂亮，所以带儿子来了..",
+            "traditionalchinese": "因為看到朋友的孩子在 Kids U Baby Photography 拍得很漂亮，所以帶兒子來了.."
+        },
+        "category": "review",
         "alt": "blog new standard of closing",
         "image": "/blogs/anoy.jpg",
         "link": "https://www.facebook.com/kidsubabyphoto/reviews",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "excerpt": "see facebook for more details.",
+        "excerptI18n": {
+            "english": "See Facebook for more details.",
+            "german": "Siehe Facebook für weitere Details.",
+            "mandarin": "请查看 Facebook 获取更多信息。",
+            "traditionalchinese": "請查看 Facebook 獲取更多資訊。"
+        }
     },
     {
         "title": "非常幸運地遇到一間很有耐性和同理心的攝影公司..",
-        "category": "facebook",
+        "titleI18n": {
+            "english": "So lucky to have found a photography team with patience and empathy..",
+            "german": "So glücklich, ein Fototeam mit Geduld und Empathie gefunden zu haben..",
+            "mandarin": "很幸运遇到一家非常有耐心和同理心的摄影公司..",
+            "traditionalchinese": "很幸運遇到一家非常有耐心和同理心的攝影公司.."
+        },
+        "category": "review",
         "alt": "blog new standard of closing",
         "image": "/blogs/anoy.jpg",
         "link": "https://www.facebook.com/kidsubabyphoto/reviews",
-        "excerpt": "London-basedsonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "excerpt": "see facebook for more details.",
+        "excerptI18n": {
+            "english": "See Facebook for more details.",
+            "german": "Siehe Facebook für weitere Details.",
+            "mandarin": "请查看 Facebook 获取更多信息。",
+            "traditionalchinese": "請查看 Facebook 獲取更多資訊。"
+        }
+    },
+    {
+        "title": "The Best Time for 6 to 12 Month Baby Photo Shooting",
+        "titleI18n": {
+            "english": "The Best Time for 6 to 12 Month Baby Photo Shooting",
+            "german": "Die beste Zeit für ein Baby-Fotoshooting von 6 bis 12 Monaten",
+            "mandarin": "6 到 12 个月婴儿摄影的最佳时间",
+            "traditionalchinese": "6 到 12 個月嬰兒攝影的最佳時間"
+        },
+        "category": "tips",
+        "alt": "the best time for 6 to 12 month baby photo shooting",
+        "image": "/blogs/bloghero.jpg",
+        "link": "/blog/best-time-of-photoshoot/",
+        "linkI18n": {
+            "english": "/blog/best-time-of-photoshoot/",
+            "german": "/blog/best-time-of-photoshoot/",
+            "mandarin": "/blog/best-time-of-photoshoot-sc/",
+            "traditionalchinese": "/blog/best-time-of-photoshoot-tc/"
+        },
+        "excerpt": "see details.",
+        "excerptI18n": {
+            "english": "see details.",
+            "german": "Siehe Details.",
+            "mandarin": "查看详情。",
+            "traditionalchinese": "查看詳情。"
+        }
     }
   ]
