@@ -11,11 +11,11 @@ import { toOptimizedImage } from '../../helpers/general';
 
 const AddNotification = (props) => {
   const sampleCartItem = {
-    image: '/products/pdp1.jpeg',
+    image: '/products/toystoryboy1.jpg',
     alt: '',
-    name: 'Lambswool Crew Neck Jumper',
+    name: 'Toys Party',
     price: 220,
-    color: 'Anthracite Melange',
+    color: 'vivid',
     size: 'XS',
   };
 
