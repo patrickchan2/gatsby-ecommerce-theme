@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useContext } from 'react';
+import Helmet from 'react-helmet';
 
 import AttributeGrid from '../components/AttributeGrid';
 import Container from '../components/Container';
@@ -28,8 +29,15 @@ const IndexPage = () => {
     navigate('/enquiry');
   };
 
+  const goToCustom = () => {
+    navigate('/customisable');
+  };
+
   return (
     <Layout disablePaddingBottom>
+      <Helmet>
+        <script>{`(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml'); ml('account', '2233994');`}</script>
+      </Helmet>
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
@@ -134,6 +142,7 @@ const IndexPage = () => {
           title={t('home.custom.title')}
           subtitle={t('home.custom.subtitle')}
           ctaText={t('home.custom.cta')}
+          ctaAction={goToCustom}
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />

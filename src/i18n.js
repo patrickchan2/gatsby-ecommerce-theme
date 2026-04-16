@@ -41,7 +41,7 @@ const translations = {
     'home.highlight.description':
       'This theme is designed to capture the essence of childhood joy and innocence. With vibrant colors, playful patterns, and whimsical elements, it creates a fun and engaging environment for kids to explore and enjoy.',
     'home.highlight.cta': 'Book now',
-    'home.promo.banner': '-10% off Early Bird book in Easter Holiday',
+    'home.promo.banner': '5% Early Bird book discount',
     'home.promo.girl': 'Girl',
     'home.promo.boy': 'Boy',
     'home.quote.title': 'About Kidsubaby',
@@ -280,7 +280,7 @@ const translations = {
     'home.highlight.description':
       '此主题旨在捕捉童年的快乐与纯真。鲜艳的色彩、活泼的图案和充满童趣的元素，为孩子打造一个充满想象与欢乐的空间。',
     'home.highlight.cta': '立即预约',
-    'home.promo.banner': '-9折优惠 复活节假期早鸟预约',
+    'home.promo.banner': '-95折优惠 早鸟预约',
     'home.promo.girl': '女孩',
     'home.promo.boy': '男孩',
     'home.quote.title': '关于 Kidsubaby',
@@ -388,7 +388,7 @@ const translations = {
     'footer.countryRegion': '國家/地區',
     'footer.language': '語言',
     'footer.emailPlaceholder': '電子郵件',
-    'home.hero.title': '捕捉綻放的瞬間',
+    'home.hero.title': '捕捉綻放瞬間',
     'home.hero.subtitle': '探索 2026 春季全新主題',
     'home.hero.cta': '立即預約',
     'home.collection.babyThemes': '寶寶主題',
@@ -398,7 +398,7 @@ const translations = {
     'home.highlight.description':
       '此主題旨在捕捉童年的喜悅與純真。以繽紛色彩、俏皮圖案和充滿童趣的元素，營造出讓孩子盡情探索與玩樂的夢幻空間。',
     'home.highlight.cta': '立即預約',
-    'home.promo.banner': '九折優惠 復活節假期早鳥預約',
+    'home.promo.banner': '95折優惠 早鳥預約',
     'home.promo.girl': '女孩',
     'home.promo.boy': '男孩',
     'home.quote.title': '關於 Kidsubaby',

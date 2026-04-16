@@ -39,7 +39,34 @@
 
 .ctaButton {
     width: 180px;
-    
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    color: var(--standard-white);
+    background-color: rgba(255, 255, 255, 0.1);
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.ctaButton.primary {
+    border-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--standard-white);
+}
+
+@media (hover: hover) {
+    .ctaButton:hover,
+    .ctaButton.primary:hover {
+        background-color: rgba(255, 255, 255, 0.16);
+        border-color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+.ctaButton:active,
+.ctaButton.primary:active,
+.ctaButton:focus,
+.ctaButton.primary:focus {
+    background-color: rgba(255, 255, 255, 0.24);
+    color: var(--standard-white);
 }
 
 .ctaLink {
