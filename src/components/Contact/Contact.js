@@ -37,7 +37,7 @@ const Contact = (props) => {
 
       <div className={styles.section}>
         <h4>{t('contact.phone.title')}</h4>
-        <p>+852 97258413</p>
+        <p>+852 46450535</p>
         <p>{t('contact.phone.hours')}</p>
       </div>
 
