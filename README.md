@@ -33,6 +33,28 @@ Click the button below and it will help you create a new repo, create a new Netl
 
 ## Regular Setup
 
+### Node.js version
+
+Use Node.js **24.22.1** (LTS), the security release listed in the
+[October 2026 Node.js advisory](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases).
+The project requires Node.js `>=24.22.1 <25` and pins the build runtime in
+`.nvmrc`, `.node-version` (including Cloudflare Pages), and `netlify.toml`.
+
+With nvm installed, select the pinned runtime before installing dependencies:
+
+```shell
+nvm install
+nvm use
+npm ci
+```
+
+On Windows with nvm-windows, use `nvm install 24.22.1` and `nvm use 24.22.1`.
+For an existing Netlify or Cloudflare Pages project, make sure any dashboard
+`NODE_VERSION` override is also set to `24.22.1`, then rebuild and redeploy to
+use the patched runtime. The Node.js installation on your machine must also
+be upgraded to this version or a newer Node.js 24 release.
+
+
  ### Cloning + Installing Packages
  
   - Clone this repo with one of these options:
